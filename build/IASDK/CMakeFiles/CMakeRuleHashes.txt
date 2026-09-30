@@ -1,0 +1,9 @@
+# Hashes of file build rules.
+1a3474b3164e8febb771e5354712cb97 protobuf/configurationdata.pb.h
+ae3af4f42ddad46539e8eef23284ce0f protobuf/discovery.pb.h
+fd05ecc45b4fd07edbdbc01995ef1325 protobuf/health.pb.h
+031e126b94b0c75c8f1e911efda9582b protobuf/healthinfo.pb.h
+e42634e89cb5045e3070d25169ec9e67 protobuf/networkinfo.pb.h
+b7252d5fa7b9e04fa9497e6f363cfa66 protobuf/nvramcontents.pb.h
+326c299a719c2e7c4e63f22991842c44 protobuf/radarmodel.pb.h
+8768e21a8a77ec41c7c829266d06bf58 protobuf/softwareversions.pb.h

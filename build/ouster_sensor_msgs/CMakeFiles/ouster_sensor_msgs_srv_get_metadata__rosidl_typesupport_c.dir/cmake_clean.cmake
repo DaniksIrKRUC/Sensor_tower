@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/ouster_sensor_msgs_srv_get_metadata__rosidl_typesupport_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/get_config_s.c.o"
+  "CMakeFiles/ouster_sensor_msgs_srv_get_metadata__rosidl_typesupport_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/get_config_s.c.o.d"
+  "CMakeFiles/ouster_sensor_msgs_srv_get_metadata__rosidl_typesupport_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/get_metadata.ep.rosidl_typesupport_c.c.o"
+  "CMakeFiles/ouster_sensor_msgs_srv_get_metadata__rosidl_typesupport_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/get_metadata.ep.rosidl_typesupport_c.c.o.d"
+  "CMakeFiles/ouster_sensor_msgs_srv_get_metadata__rosidl_typesupport_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/get_metadata_s.c.o"
+  "CMakeFiles/ouster_sensor_msgs_srv_get_metadata__rosidl_typesupport_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/get_metadata_s.c.o.d"
+  "CMakeFiles/ouster_sensor_msgs_srv_get_metadata__rosidl_typesupport_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/set_config_s.c.o"
+  "CMakeFiles/ouster_sensor_msgs_srv_get_metadata__rosidl_typesupport_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/set_config_s.c.o.d"
+  "rosidl_generator_cs/ouster_sensor_msgs/msg/packet_msg.cs"
+  "rosidl_generator_cs/ouster_sensor_msgs/msg/packet_msg.ep.rosidl_typesupport_c.c"
+  "rosidl_generator_cs/ouster_sensor_msgs/msg/packet_msg.ep.rosidl_typesupport_fastrtps_c.c"
+  "rosidl_generator_cs/ouster_sensor_msgs/msg/packet_msg.ep.rosidl_typesupport_introspection_c.c"
+  "rosidl_generator_cs/ouster_sensor_msgs/msg/packet_msg_s.c"
+  "rosidl_generator_cs/ouster_sensor_msgs/msg/telemetry.cs"
+  "rosidl_generator_cs/ouster_sensor_msgs/msg/telemetry.ep.rosidl_typesupport_c.c"
+  "rosidl_generator_cs/ouster_sensor_msgs/msg/telemetry.ep.rosidl_typesupport_fastrtps_c.c"
+  "rosidl_generator_cs/ouster_sensor_msgs/msg/telemetry.ep.rosidl_typesupport_introspection_c.c"
+  "rosidl_generator_cs/ouster_sensor_msgs/msg/telemetry_s.c"
+  "rosidl_generator_cs/ouster_sensor_msgs/srv/get_config.cs"
+  "rosidl_generator_cs/ouster_sensor_msgs/srv/get_config.ep.rosidl_typesupport_c.c"
+  "rosidl_generator_cs/ouster_sensor_msgs/srv/get_config.ep.rosidl_typesupport_fastrtps_c.c"
+  "rosidl_generator_cs/ouster_sensor_msgs/srv/get_config.ep.rosidl_typesupport_introspection_c.c"
+  "rosidl_generator_cs/ouster_sensor_msgs/srv/get_config_s.c"
+  "rosidl_generator_cs/ouster_sensor_msgs/srv/get_metadata.cs"
+  "rosidl_generator_cs/ouster_sensor_msgs/srv/get_metadata.ep.rosidl_typesupport_c.c"
+  "rosidl_generator_cs/ouster_sensor_msgs/srv/get_metadata.ep.rosidl_typesupport_fastrtps_c.c"
+  "rosidl_generator_cs/ouster_sensor_msgs/srv/get_metadata.ep.rosidl_typesupport_introspection_c.c"
+  "rosidl_generator_cs/ouster_sensor_msgs/srv/get_metadata_s.c"
+  "rosidl_generator_cs/ouster_sensor_msgs/srv/libouster_sensor_msgs_srv_get_metadata__rosidl_typesupport_c_native.pdb"
+  "rosidl_generator_cs/ouster_sensor_msgs/srv/libouster_sensor_msgs_srv_get_metadata__rosidl_typesupport_c_native.so"
+  "rosidl_generator_cs/ouster_sensor_msgs/srv/set_config.cs"
+  "rosidl_generator_cs/ouster_sensor_msgs/srv/set_config.ep.rosidl_typesupport_c.c"
+  "rosidl_generator_cs/ouster_sensor_msgs/srv/set_config.ep.rosidl_typesupport_fastrtps_c.c"
+  "rosidl_generator_cs/ouster_sensor_msgs/srv/set_config.ep.rosidl_typesupport_introspection_c.c"
+  "rosidl_generator_cs/ouster_sensor_msgs/srv/set_config_s.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/ouster_sensor_msgs_srv_get_metadata__rosidl_typesupport_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

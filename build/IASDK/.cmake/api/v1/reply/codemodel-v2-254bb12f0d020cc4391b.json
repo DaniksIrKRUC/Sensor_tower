@@ -1,0 +1,273 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						8,
+						9
+					]
+				},
+				{
+					"build" : "utility",
+					"jsonFile" : "directory-utility-2eb7dd1ba56601e7e215.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "utility",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "protobuf",
+					"jsonFile" : "directory-protobuf-010d4dc06de9526e5a40.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "protobuf",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "network",
+					"jsonFile" : "directory-network-5de104fc96d9b5a94d96.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "network",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "navigation",
+					"jsonFile" : "directory-navigation-79607934be77276c7e02.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "navigation",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "IASDK",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						8,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "sdk_utilities",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "sdk_protobuf",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "sdk_networking",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "sdk_navigation",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cat240_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cat240_client-3ff72ad12eea0888dcaf.json",
+					"name" : "cat240_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "colossus_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-colossus_client-dc16691061b74fff6895.json",
+					"name" : "colossus_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "colossus_relay::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-colossus_relay-4d31f6320cb511c0b94f.json",
+					"name" : "colossus_relay",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "colossus_udp_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-colossus_udp_client-fb340f47f7fcefa2b058.json",
+					"name" : "colossus_udp_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "connection_tester::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-connection_tester-6e2086de116b8dbba1eb.json",
+					"name" : "connection_tester",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "navigation::@c4e44054ded3c2fac69f",
+					"jsonFile" : "target-navigation-38d1d741e88ecd67f4ac.json",
+					"name" : "navigation",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigation_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigation_client-48430012ea8d83bcab2e.json",
+					"name" : "navigation_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "networking::@39732e8ab9fc593479e7",
+					"jsonFile" : "target-networking-ab58e9ddec2f79f83de5.json",
+					"name" : "networking",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nmea_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nmea_client-494fadead4d6b3d05289.json",
+					"name" : "nmea_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nmea_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nmea_server-29eadb3344d7375bd76e.json",
+					"name" : "nmea_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "protobuf::@c0ae8b21a12d2531c79c",
+					"jsonFile" : "target-protobuf-2138d8a56c73fafe819b.json",
+					"name" : "protobuf",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "utility::@23b027168f11ea0d609c",
+					"jsonFile" : "target-utility-7d1cecdd3d68b440c017.json",
+					"name" : "utility",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ros2/tower_ws/build/IASDK",
+		"source" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

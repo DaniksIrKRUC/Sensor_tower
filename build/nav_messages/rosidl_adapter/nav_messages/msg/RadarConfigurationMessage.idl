@@ -1,0 +1,45 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from nav_messages/msg/RadarConfigurationMessage.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module nav_messages {
+  module msg {
+    @verbatim (language="comment", text=
+      "A ROS message based on a configuration data message from a radar")
+    struct RadarConfigurationMessage {
+      @verbatim (language="comment", text=
+        "add a header message to hold message timestamp")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "azimuth_samples (uint16) represented as a network order (uint8_t) byte array")
+      sequence<uint8> azimuth_samples;
+
+      @verbatim (language="comment", text=
+        "encoder_size (uint16) represented as a network order (uint8_t) byte array")
+      sequence<uint8> encoder_size;
+
+      @verbatim (language="comment", text=
+        "bin_size (double) represented as a network order (uint8_t) byte array")
+      sequence<uint8> bin_size;
+
+      @verbatim (language="comment", text=
+        "range_in_bins (uint16) represented as a network order (uint8_t) byte array")
+      sequence<uint8> range_in_bins;
+
+      @verbatim (language="comment", text=
+        "expected_rotation_rate (uint16) represented as a network order (uint8_t) byte array")
+      sequence<uint8> expected_rotation_rate;
+
+      @verbatim (language="comment", text=
+        "range_gain (float) represented as a network order (uint8_t) byte array")
+      sequence<uint8> range_gain;
+
+      @verbatim (language="comment", text=
+        "range_offset (float) represented as a network order (uint8_t) byte array")
+      sequence<uint8> range_offset;
+    };
+  };
+};

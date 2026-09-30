@@ -1,0 +1,120 @@
+[0.000000] (-) TimerEvent: {}
+[0.000259] (IASDK) JobQueued: {'identifier': 'IASDK', 'dependencies': OrderedDict()}
+[0.000275] (nav_messages) JobQueued: {'identifier': 'nav_messages', 'dependencies': OrderedDict()}
+[0.000285] (nav_camera) JobQueued: {'identifier': 'nav_camera', 'dependencies': OrderedDict([('nav_messages', '/home/ros2/tower_ws/install/nav_messages')])}
+[0.000295] (nav_radar) JobQueued: {'identifier': 'nav_radar', 'dependencies': OrderedDict([('nav_messages', '/home/ros2/tower_ws/install/nav_messages')])}
+[0.000302] (nav_launch) JobQueued: {'identifier': 'nav_launch', 'dependencies': OrderedDict([('nav_messages', '/home/ros2/tower_ws/install/nav_messages'), ('nav_camera', '/home/ros2/tower_ws/install/nav_camera'), ('nav_radar', '/home/ros2/tower_ws/install/nav_radar')])}
+[0.000600] (nav_messages) JobStarted: {'identifier': 'nav_messages'}
+[0.004308] (IASDK) JobStarted: {'identifier': 'IASDK'}
+[0.006887] (nav_messages) JobProgress: {'identifier': 'nav_messages', 'progress': 'cmake'}
+[0.007044] (nav_messages) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2/tower_ws/src/navtech/src/nav_messages', '-DCMAKE_INSTALL_PREFIX=/home/ros2/tower_ws/install/nav_messages'], 'cwd': '/home/ros2/tower_ws/build/nav_messages', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros2'), ('LC_TIME', 'lv_LV.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2/ros2_ws/install/zed_components/lib:/home/ros2/Downloads/final-ai/install/detectionmessage/lib:/home/ros2/Downloads/ros2cs/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('OLDPWD', '/home/ros2/tower_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'lv_LV.UTF-8'), ('SYSTEMD_EXEC_PID', '2112'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ros2/ros2_ws/install:/home/ros2/Downloads/final-ai/install:/home/ros2/Downloads/ros2cs/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ros2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/ros2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ros2/.dotnet/tools'), ('SESSION_MANAGER', 'local/ros2:@/tmp/.ICE-unix/1944,unix/ros2:/tmp/.ICE-unix/1944'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lv_LV.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/52a08a4d_bf9a_4dd1_a4c1_fcd2684cb791'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/ros2/.cache/dotnet_bundle_extract'), ('LC_TELEPHONE', 'lv_LV.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros2/ros2_ws/install/zed_ros2:/home/ros2/ros2_ws/install/zed_wrapper:/home/ros2/ros2_ws/install/zed_components:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/home/ros2/Downloads/final-ai/install/detectionmessage:/home/ros2/Downloads/ros2cs/install:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lv_LV.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lv_LV.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'lv_LV.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros2/tower_ws/build/nav_messages'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros2/Downloads/final-ai/install/py_fakedata/lib/python3.10/site-packages:/home/ros2/Downloads/final-ai/install/py_detectionmessage/lib/python3.10/site-packages:/home/ros2/Downloads/final-ai/install/py_aiproc/lib/python3.10/site-packages:/home/ros2/Downloads/final-ai/install/detectionmessage/local/lib/python3.10/dist-packages:/home/ros2/Downloads/ros2cs/install/lib/python3.10/site-packages:/home/ros2/Downloads/ros2cs/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'lv_LV.UTF-8'), ('LC_PAPER', 'lv_LV.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ros2/ros2_ws/install/zed_ros2:/home/ros2/ros2_ws/install/zed_wrapper:/home/ros2/ros2_ws/install/zed_components:/home/ros2/Downloads/final-ai/install/detectionmessage:/home/ros2/Downloads/ros2cs/install:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble')]), 'shell': False}
+[0.009294] (IASDK) JobProgress: {'identifier': 'IASDK', 'progress': 'cmake'}
+[0.009502] (IASDK) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2/tower_ws/src/navtech/src/cpp_17/src', '-DCMAKE_INSTALL_PREFIX=/home/ros2/tower_ws/install/IASDK'], 'cwd': '/home/ros2/tower_ws/build/IASDK', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros2'), ('LC_TIME', 'lv_LV.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2/ros2_ws/install/zed_components/lib:/home/ros2/Downloads/final-ai/install/detectionmessage/lib:/home/ros2/Downloads/ros2cs/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('OLDPWD', '/home/ros2/tower_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'lv_LV.UTF-8'), ('SYSTEMD_EXEC_PID', '2112'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ros2/ros2_ws/install:/home/ros2/Downloads/final-ai/install:/home/ros2/Downloads/ros2cs/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ros2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/ros2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ros2/.dotnet/tools'), ('SESSION_MANAGER', 'local/ros2:@/tmp/.ICE-unix/1944,unix/ros2:/tmp/.ICE-unix/1944'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lv_LV.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/52a08a4d_bf9a_4dd1_a4c1_fcd2684cb791'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/ros2/.cache/dotnet_bundle_extract'), ('LC_TELEPHONE', 'lv_LV.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros2/ros2_ws/install/zed_ros2:/home/ros2/ros2_ws/install/zed_wrapper:/home/ros2/ros2_ws/install/zed_components:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/home/ros2/Downloads/final-ai/install/detectionmessage:/home/ros2/Downloads/ros2cs/install:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lv_LV.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lv_LV.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'lv_LV.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros2/tower_ws/build/IASDK'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros2/Downloads/final-ai/install/py_fakedata/lib/python3.10/site-packages:/home/ros2/Downloads/final-ai/install/py_detectionmessage/lib/python3.10/site-packages:/home/ros2/Downloads/final-ai/install/py_aiproc/lib/python3.10/site-packages:/home/ros2/Downloads/final-ai/install/detectionmessage/local/lib/python3.10/dist-packages:/home/ros2/Downloads/ros2cs/install/lib/python3.10/site-packages:/home/ros2/Downloads/ros2cs/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'lv_LV.UTF-8'), ('LC_PAPER', 'lv_LV.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ros2/ros2_ws/install/zed_ros2:/home/ros2/ros2_ws/install/zed_wrapper:/home/ros2/ros2_ws/install/zed_components:/home/ros2/Downloads/final-ai/install/detectionmessage:/home/ros2/Downloads/ros2cs/install')]), 'shell': False}
+[0.100071] (-) TimerEvent: {}
+[0.140635] (IASDK) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.141583] (nav_messages) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.200274] (-) TimerEvent: {}
+[0.219494] (IASDK) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.221362] (nav_messages) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.228546] (nav_messages) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.228683] (IASDK) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300396] (-) TimerEvent: {}
+[0.315657] (IASDK) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.323290] (nav_messages) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.324588] (IASDK) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.324794] (IASDK) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.325386] (IASDK) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.328412] (IASDK) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.328877] (nav_messages) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.329055] (nav_messages) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.329287] (nav_messages) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.331026] (nav_messages) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.391252] (IASDK) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.391488] (nav_messages) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.398423] (IASDK) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.398707] (nav_messages) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.398934] (IASDK) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.399142] (nav_messages) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.399501] (IASDK) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.399691] (nav_messages) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.400480] (-) TimerEvent: {}
+[0.404349] (nav_messages) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500615] (-) TimerEvent: {}
+[0.540858] (IASDK) StderrLine: {'line': b'\x1b[31mCMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):\n'}
+[0.540973] (IASDK) StderrLine: {'line': b'  Could NOT find Protobuf (missing: Protobuf_LIBRARIES Protobuf_INCLUDE_DIR)\n'}
+[0.541006] (IASDK) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.541031] (IASDK) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)\n'}
+[0.541053] (IASDK) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindProtobuf.cmake:650 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)\n'}
+[0.541077] (IASDK) StderrLine: {'line': b'  CMakeLists.txt:7 (find_package)\n'}
+[0.541100] (IASDK) StderrLine: {'line': b'\n'}
+[0.541122] (IASDK) StderrLine: {'line': b'\x1b[0m\n'}
+[0.541144] (IASDK) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.541171] (IASDK) StdoutLine: {'line': b'See also "/home/ros2/tower_ws/build/IASDK/CMakeFiles/CMakeOutput.log".\n'}
+[0.543219] (IASDK) CommandEnded: {'returncode': 1}
+[0.543689] (IASDK) JobEnded: {'identifier': 'IASDK', 'rc': 1}
+[0.546088] (nav_messages) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.600764] (-) TimerEvent: {}
+[0.637916] (nav_messages) StdoutLine: {'line': b'-- Found std_msgs: 4.9.0 (/home/ros2/Downloads/ros2cs/install/share/std_msgs/cmake)\n'}
+[0.668592] (nav_messages) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.673275] (nav_messages) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.680976] (nav_messages) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.692930] (nav_messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.700927] (-) TimerEvent: {}
+[0.707397] (nav_messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.730059] (nav_messages) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/home/ros2/Downloads/ros2cs/install/share/rosidl_default_generators/cmake)\n'}
+[0.734779] (nav_messages) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.801085] (-) TimerEvent: {}
+[0.901345] (-) TimerEvent: {}
+[0.945912] (nav_messages) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.001505] (-) TimerEvent: {}
+[1.101755] (-) TimerEvent: {}
+[1.191568] (nav_messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.201890] (-) TimerEvent: {}
+[1.286967] (nav_messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.289033] (nav_messages) StdoutLine: {'line': b'-- Found ament_cmake_export_assemblies: 0.0.0 (/home/ros2/Downloads/ros2cs/install/share/ament_cmake_export_assemblies/cmake)\n'}
+[1.290402] (nav_messages) StdoutLine: {'line': b'-- Found dotnet_cmake_module: 0.0.0 (/home/ros2/Downloads/ros2cs/install/share/dotnet_cmake_module/cmake)\n'}
+[1.302062] (-) TimerEvent: {}
+[1.398936] (nav_messages) StdoutLine: {'line': b'-- Found DotNetCore: /usr/bin/dotnet  \n'}
+[1.399050] (nav_messages) StdoutLine: {'line': b'-- Found .NET Core: 6.0.136\n'}
+[1.399080] (nav_messages) StdoutLine: {'line': b'-- Using Framework: netstandard2.0\n'}
+[1.399105] (nav_messages) StdoutLine: {'line': b'-- Using Framework: netstandard2.0\n'}
+[1.399128] (nav_messages) StdoutLine: {'line': b'-- Using Runtime: linux-x64\n'}
+[1.400602] (nav_messages) StdoutLine: {'line': b'-- Found ros2cs_common: 2.0.0 (/home/ros2/Downloads/ros2cs/install/share/ros2cs_common/cmake)\n'}
+[1.402121] (-) TimerEvent: {}
+[1.502433] (-) TimerEvent: {}
+[1.534027] (nav_messages) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.568737] (nav_messages) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.602594] (-) TimerEvent: {}
+[1.630708] (nav_messages) StdoutLine: {'line': b'-- Generating C# code for ROS interfaces /home/ros2/tower_ws/build/nav_messages/rosidl_generator_cs/nav_messages/msg/radar_configuration_message.cs;/home/ros2/tower_ws/build/nav_messages/rosidl_generator_cs/nav_messages/msg/radar_fft_data_message.cs;/home/ros2/tower_ws/build/nav_messages/rosidl_generator_cs/nav_messages/msg/camera_configuration_message.cs and \n'}
+[1.630890] (nav_messages) StdoutLine: {'line': b'-- Adding custom target\n'}
+[1.631279] (nav_messages) StderrLine: {'line': b'\x1b[0mLink libraries: nav_messages__rosidl_typesupport_c\x1b[0m\n'}
+[1.633022] (nav_messages) StderrLine: {'line': b'\x1b[0mLink libraries: nav_messages__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.634566] (nav_messages) StderrLine: {'line': b'\x1b[0mLink libraries: nav_messages__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.635994] (nav_messages) StderrLine: {'line': b'\x1b[0mLink libraries: nav_messages__rosidl_typesupport_c\x1b[0m\n'}
+[1.637431] (nav_messages) StderrLine: {'line': b'\x1b[0mLink libraries: nav_messages__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.638848] (nav_messages) StderrLine: {'line': b'\x1b[0mLink libraries: nav_messages__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.640236] (nav_messages) StderrLine: {'line': b'\x1b[0mLink libraries: nav_messages__rosidl_typesupport_c\x1b[0m\n'}
+[1.641654] (nav_messages) StderrLine: {'line': b'\x1b[0mLink libraries: nav_messages__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.643130] (nav_messages) StderrLine: {'line': b'\x1b[0mLink libraries: nav_messages__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.644334] (nav_messages) StderrLine: {'line': b'\x1b[0mInstall targets\x1b[0m\n'}
+[1.658377] (nav_messages) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.660105] (nav_messages) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.679607] (nav_messages) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.679738] (nav_messages) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.679804] (nav_messages) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.679854] (nav_messages) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.702750] (nav_messages) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.702841] (-) TimerEvent: {}
+[1.791126] (nav_messages) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.802998] (-) TimerEvent: {}
+[1.814811] (nav_messages) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.815991] (nav_messages) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.816728] (nav_messages) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.818269] (nav_messages) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.849926] (nav_messages) StdoutLine: {'line': b'-- Generating done\n'}
+[1.860625] (nav_messages) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2/tower_ws/build/nav_messages\n'}
+[1.867581] (nav_messages) JobEnded: {'identifier': 'nav_messages', 'rc': 'SIGINT'}
+[1.878203] (nav_camera) JobSkipped: {'identifier': 'nav_camera'}
+[1.878484] (nav_radar) JobSkipped: {'identifier': 'nav_radar'}
+[1.878521] (nav_launch) JobSkipped: {'identifier': 'nav_launch'}
+[1.878539] (-) EventReactorShutdown: {}

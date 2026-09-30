@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = nav_messages_assembly_dotnetcore
+build_property.ProjectDir = /home/ros2/tower_ws/build/nav_messages/nav_messages_assembly/

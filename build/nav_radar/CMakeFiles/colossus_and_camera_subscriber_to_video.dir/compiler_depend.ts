@@ -1,0 +1,2 @@
+# CMAKE generated file: DO NOT EDIT!
+# Timestamp file for compiler generated dependencies management for colossus_and_camera_subscriber_to_video.

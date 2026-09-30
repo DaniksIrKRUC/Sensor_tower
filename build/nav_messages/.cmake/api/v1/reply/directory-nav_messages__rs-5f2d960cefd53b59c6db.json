@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "nav_messages__rs",
+		"source" : "/home/ros2/tower_ws/build/nav_messages/nav_messages__rs"
+	}
+}

@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target video_capture_manager[0m
+[35m[1mConsolidate compiler generated dependencies of target camera_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target camera_subscriber[0m
+[35m[1mConsolidate compiler generated dependencies of target camera_subscriber_to_video[0m
+[ 25%] Built target video_capture_manager
+[ 50%] Built target camera_publisher
+[100%] Built target camera_subscriber_to_video
+[100%] Built target camera_subscriber
+-- Install configuration: ""
+-- Up-to-date: /home/ros2/tower_ws/install/nav_camera/lib/nav_camera/video_capture_manager
+-- Up-to-date: /home/ros2/tower_ws/install/nav_camera/lib/nav_camera/camera_publisher
+-- Up-to-date: /home/ros2/tower_ws/install/nav_camera/lib/nav_camera/camera_subscriber
+-- Up-to-date: /home/ros2/tower_ws/install/nav_camera/lib/nav_camera/camera_subscriber_to_video
+-- Up-to-date: /home/ros2/tower_ws/install/nav_camera/share/ament_index/resource_index/package_run_dependencies/nav_camera
+-- Up-to-date: /home/ros2/tower_ws/install/nav_camera/share/ament_index/resource_index/parent_prefix_path/nav_camera
+-- Up-to-date: /home/ros2/tower_ws/install/nav_camera/share/nav_camera/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ros2/tower_ws/install/nav_camera/share/nav_camera/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ros2/tower_ws/install/nav_camera/share/nav_camera/environment/path.sh
+-- Up-to-date: /home/ros2/tower_ws/install/nav_camera/share/nav_camera/environment/path.dsv
+-- Up-to-date: /home/ros2/tower_ws/install/nav_camera/share/nav_camera/local_setup.bash
+-- Up-to-date: /home/ros2/tower_ws/install/nav_camera/share/nav_camera/local_setup.sh
+-- Up-to-date: /home/ros2/tower_ws/install/nav_camera/share/nav_camera/local_setup.zsh
+-- Up-to-date: /home/ros2/tower_ws/install/nav_camera/share/nav_camera/local_setup.dsv
+-- Installing: /home/ros2/tower_ws/install/nav_camera/share/nav_camera/package.dsv
+-- Up-to-date: /home/ros2/tower_ws/install/nav_camera/share/ament_index/resource_index/packages/nav_camera
+-- Up-to-date: /home/ros2/tower_ws/install/nav_camera/share/nav_camera/cmake/nav_cameraConfig.cmake
+-- Up-to-date: /home/ros2/tower_ws/install/nav_camera/share/nav_camera/cmake/nav_cameraConfig-version.cmake
+-- Up-to-date: /home/ros2/tower_ws/install/nav_camera/share/nav_camera/package.xml

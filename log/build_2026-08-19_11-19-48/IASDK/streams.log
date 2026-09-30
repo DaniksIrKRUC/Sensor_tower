@@ -1,0 +1,93 @@
+[0.006s] Invoking command in '/home/ros2/tower_ws/build/IASDK': /usr/bin/cmake /home/ros2/tower_ws/src/navtech/src/cpp_17/src -DCMAKE_INSTALL_PREFIX=/home/ros2/tower_ws/install/IASDK
+[0.033s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.a (found version "3.12.4") 
+[0.035s] -- Protobuf current output dir: /home/ros2/tower_ws/build/IASDK/protobuf
+[0.036s] -- Configuring done
+[0.048s] -- Generating done
+[0.053s] -- Build files have been written to: /home/ros2/tower_ws/build/IASDK
+[0.055s] Invoked command in '/home/ros2/tower_ws/build/IASDK' returned '0': /usr/bin/cmake /home/ros2/tower_ws/src/navtech/src/cpp_17/src -DCMAKE_INSTALL_PREFIX=/home/ros2/tower_ws/install/IASDK
+[0.056s] Invoking command in '/home/ros2/tower_ws/build/IASDK': /usr/bin/cmake --build /home/ros2/tower_ws/build/IASDK -- -j24 -l24
+[0.081s] [  2%] [34m[1mRunning cpp protocol buffer compiler on discovery.proto[0m
+[0.081s] [  2%] [34m[1mRunning cpp protocol buffer compiler on healthinfo.proto[0m
+[0.081s] [  4%] [34m[1mRunning cpp protocol buffer compiler on networkinfo.proto[0m
+[0.082s] [  5%] [34m[1mRunning cpp protocol buffer compiler on nvramcontents.proto[0m
+[0.083s] [  6%] [34m[1mRunning cpp protocol buffer compiler on softwareversions.proto[0m
+[0.083s] [  8%] [34m[1mRunning cpp protocol buffer compiler on configurationdata.proto[0m
+[0.083s] [  9%] [34m[1mRunning cpp protocol buffer compiler on health.proto[0m
+[0.084s] [ 11%] [34m[1mRunning cpp protocol buffer compiler on radarmodel.proto[0m
+[0.089s] [ 12%] [32mBuilding CXX object utility/CMakeFiles/utility.dir/Log.cpp.o[0m
+[0.089s] [ 18%] [32mBuilding CXX object utility/CMakeFiles/utility.dir/Signal_handler.cpp.o[0m
+[0.089s] [ 18%] [32mBuilding CXX object utility/CMakeFiles/utility.dir/Timer.cpp.o[0m
+[0.089s] [ 18%] [32mBuilding CXX object utility/CMakeFiles/utility.dir/Time_utils.cpp.o[0m
+[0.089s] [ 18%] [32mBuilding CXX object utility/CMakeFiles/utility.dir/Option_parser.cpp.o[0m
+[0.089s] [ 20%] [32mBuilding CXX object utility/CMakeFiles/utility.dir/Polar_coordinate.cpp.o[0m
+[0.089s] [ 20%] [32mBuilding CXX object utility/CMakeFiles/utility.dir/Cartesian_coordinate.cpp.o[0m
+[0.090s] [ 22%] [32mBuilding CXX object utility/CMakeFiles/utility.dir/threading/Active.cpp.o[0m
+[0.091s] [ 23%] [32mBuilding CXX object utility/CMakeFiles/utility.dir/threading/Mutex.cpp.o[0m
+[0.112s] [ 25%] [32mBuilding CXX object protobuf/CMakeFiles/protobuf.dir/health.pb.cc.o[0m
+[0.112s] [ 27%] [32mBuilding CXX object protobuf/CMakeFiles/protobuf.dir/discovery.pb.cc.o[0m
+[0.112s] [ 27%] [32mBuilding CXX object protobuf/CMakeFiles/protobuf.dir/configurationdata.pb.cc.o[0m
+[0.112s] [ 30%] [32mBuilding CXX object protobuf/CMakeFiles/protobuf.dir/nvramcontents.pb.cc.o[0m
+[0.112s] [ 30%] [32mBuilding CXX object protobuf/CMakeFiles/protobuf.dir/networkinfo.pb.cc.o[0m
+[0.113s] [ 31%] [32mBuilding CXX object protobuf/CMakeFiles/protobuf.dir/healthinfo.pb.cc.o[0m
+[0.114s] [ 33%] [32mBuilding CXX object protobuf/CMakeFiles/protobuf.dir/softwareversions.pb.cc.o[0m
+[0.116s] [ 34%] [32mBuilding CXX object protobuf/CMakeFiles/protobuf.dir/radarmodel.pb.cc.o[0m
+[0.952s] [ 36%] [32m[1mLinking CXX static library libutility.a[0m
+[0.987s] [ 36%] Built target utility
+[1.071s] [ 37%] [32m[1mLinking CXX static library libprotobuf.a[0m
+[1.097s] [ 37%] Built target protobuf
+[1.110s] [ 38%] [32mBuilding CXX object navigation/CMakeFiles/navigation.dir/Peak_finder.cpp.o[0m
+[1.111s] [ 40%] [32mBuilding CXX object navigation/CMakeFiles/navigation.dir/Sector_blanking.cpp.o[0m
+[1.891s] [ 41%] [32m[1mLinking CXX static library libnavigation.a[0m
+[1.917s] [ 41%] Built target navigation
+[1.933s] [ 43%] [32mBuilding CXX object network/CMakeFiles/networking.dir/core/utility/net_conversion.cpp.o[0m
+[1.934s] [ 44%] [32mBuilding CXX object network/CMakeFiles/networking.dir/core/socket/TCP_socket.cpp.o[0m
+[1.934s] [ 45%] [32mBuilding CXX object network/CMakeFiles/networking.dir/core/utility/MAC_address.cpp.o[0m
+[1.934s] [ 47%] [32mBuilding CXX object network/CMakeFiles/networking.dir/core/utility/IP_address.cpp.o[0m
+[1.934s] [ 48%] [32mBuilding CXX object network/CMakeFiles/networking.dir/protocol/CAT_240/client/Cat240_client.cpp.o[0m
+[1.934s] [ 50%] [32mBuilding CXX object network/CMakeFiles/networking.dir/core/socket/Socket.cpp.o[0m
+[1.934s] [ 51%] [32mBuilding CXX object network/CMakeFiles/networking.dir/core/socket/UDP_socket.cpp.o[0m
+[1.934s] [ 52%] [32mBuilding CXX object network/CMakeFiles/networking.dir/protocol/CAT_240/protocol/Cat240_message.cpp.o[0m
+[1.934s] [ 55%] [32mBuilding CXX object network/CMakeFiles/networking.dir/protocol/Colossus/client/Colossus_client.cpp.o[0m
+[1.935s] [ 55%] [32mBuilding CXX object network/CMakeFiles/networking.dir/protocol/CAT_240/server/Cat240_server.cpp.o[0m
+[1.935s] [ 58%] [32mBuilding CXX object network/CMakeFiles/networking.dir/protocol/Colossus/test/Colossus_test.cpp.o[0m
+[1.935s] [ 58%] [32mBuilding CXX object network/CMakeFiles/networking.dir/protocol/CAT_240/event_handling/Cat240_events.cpp.o[0m
+[1.936s] [ 61%] [32mBuilding CXX object network/CMakeFiles/networking.dir/protocol/Colossus/server/Colossus_server.cpp.o[0m
+[1.936s] [ 61%] [32mBuilding CXX object network/CMakeFiles/networking.dir/protocol/Colossus/event_handling/Colossus_events.cpp.o[0m
+[1.936s] [ 62%] [32mBuilding CXX object network/CMakeFiles/networking.dir/protocol/Colossus/test/Colossus_test_runner.cpp.o[0m
+[1.936s] [ 65%] [32mBuilding CXX object network/CMakeFiles/networking.dir/protocol/Colossus_UDP/client/Colossus_UDP_client.cpp.o[0m
+[1.936s] [ 65%] [32mBuilding CXX object network/CMakeFiles/networking.dir/protocol/Colossus/protocol/Colossus_network_message.cpp.o[0m
+[1.936s] [ 66%] [32mBuilding CXX object network/CMakeFiles/networking.dir/protocol/Colossus_UDP/event_handling/Colossus_UDP_events.cpp.o[0m
+[1.936s] [ 68%] [32mBuilding CXX object network/CMakeFiles/networking.dir/protocol/NMEA/protocol/NMEA_message.cpp.o[0m
+[1.937s] [ 69%] [32mBuilding CXX object network/CMakeFiles/networking.dir/protocol/Colossus/test/Colossus_test_cases.cpp.o[0m
+[1.937s] [ 70%] [32mBuilding CXX object network/CMakeFiles/networking.dir/protocol/Colossus_UDP/protocol/Colossus_UDP_network_message.cpp.o[0m
+[1.939s] [ 72%] [32mBuilding CXX object network/CMakeFiles/networking.dir/protocol/NMEA/protocol/NMEA_parser.cpp.o[0m
+[1.939s] [ 73%] [32mBuilding CXX object network/CMakeFiles/networking.dir/protocol/NMEA/client/NMEA_client.cpp.o[0m
+[1.939s] [ 75%] [32mBuilding CXX object network/CMakeFiles/networking.dir/protocol/NMEA/server/NMEA_server.cpp.o[0m
+[2.095s] [ 76%] [32mBuilding CXX object network/CMakeFiles/networking.dir/protocol/NMEA/event_handling/NMEA_events.cpp.o[0m
+[3.871s] [ 77%] [32m[1mLinking CXX static library libnetworking.a[0m
+[3.961s] [ 77%] Built target networking
+[3.973s] [ 80%] [32mBuilding CXX object CMakeFiles/colossus_relay.dir/relay_main.cpp.o[0m
+[3.974s] [ 80%] [32mBuilding CXX object CMakeFiles/connection_tester.dir/connection_tester.cpp.o[0m
+[3.974s] [ 81%] [32mBuilding CXX object CMakeFiles/nmea_server.dir/NMEA_server_main.cpp.o[0m
+[3.975s] [ 83%] [32mBuilding CXX object CMakeFiles/nmea_client.dir/NMEA_client_main.cpp.o[0m
+[3.976s] [ 84%] [32mBuilding CXX object CMakeFiles/colossus_client.dir/Colossus_client_main.cpp.o[0m
+[3.977s] [ 86%] [32mBuilding CXX object CMakeFiles/colossus_udp_client.dir/Colossus_udp_client_main.cpp.o[0m
+[3.977s] [ 87%] [32mBuilding CXX object CMakeFiles/cat240_client.dir/Cat240_client_main.cpp.o[0m
+[3.978s] [ 88%] [32mBuilding CXX object CMakeFiles/navigation_client.dir/navigation_main.cpp.o[0m
+[4.872s] [ 90%] [32m[1mLinking CXX executable bin/nmea_server[0m
+[4.931s] [ 91%] [32m[1mLinking CXX executable bin/nmea_client[0m
+[5.004s] [ 91%] Built target nmea_server
+[5.029s] [ 93%] [32m[1mLinking CXX executable bin/cat240_client[0m
+[5.068s] [ 93%] Built target nmea_client
+[5.161s] [ 93%] Built target cat240_client
+[5.363s] [ 94%] [32m[1mLinking CXX executable bin/colossus_udp_client[0m
+[5.444s] [ 95%] [32m[1mLinking CXX executable bin/navigation_client[0m
+[5.447s] [ 97%] [32m[1mLinking CXX executable bin/colossus_relay[0m
+[5.468s] [ 98%] [32m[1mLinking CXX executable bin/colossus_client[0m
+[5.469s] [100%] [32m[1mLinking CXX executable bin/connection_tester[0m
+[5.497s] [100%] Built target colossus_udp_client
+[5.626s] [100%] Built target colossus_relay
+[5.630s] [100%] Built target connection_tester
+[5.656s] [100%] Built target navigation_client
+[5.679s] [100%] Built target colossus_client
+[5.688s] Invoked command in '/home/ros2/tower_ws/build/IASDK' returned '0': /usr/bin/cmake --build /home/ros2/tower_ws/build/IASDK -- -j24 -l24

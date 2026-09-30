@@ -1,0 +1,324 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/colossus_client"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"add_compile_options"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"backtrace" : 3,
+					"fragment" : "-std=c++17"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wfatal-errors"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-pthread"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/utility"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/utility/threading"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ros2/tower_ws/build/IASDK/protobuf"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/core"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/core/socket"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/core/tls"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/core/client"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/core/connection"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/core/connection/bytestream"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/core/connection/datagram"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/core/connection/messaging"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/core/connection/secure"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/core/server"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/core/utility"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/core/event_handling"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/CAT_240/client"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/CAT_240/server"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/CAT_240/protocol"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/CAT_240/event_handling"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/Colossus/client"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/Colossus/server"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/Colossus/protocol"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/Colossus/event_handling"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/Colossus/test"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/Colossus_UDP/client"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/Colossus_UDP/server"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/Colossus_UDP/protocol"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/Colossus_UDP/event_handling"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/Colossus_UDP/test"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/NMEA/client"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/NMEA/server"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/NMEA/protocol"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/NMEA/event_handling"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/navigation"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "utility::@23b027168f11ea0d609c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "protobuf::@c0ae8b21a12d2531c79c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "networking::@39732e8ab9fc593479e7"
+		}
+	],
+	"id" : "colossus_client::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "utility/libutility.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "protobuf/libprotobuf.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "network/libnetworking.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "navigation/libnavigation.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "network/libnetworking.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "navigation/libnavigation.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "utility/libutility.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "protobuf/libprotobuf.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libprotobuf.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "colossus_client",
+	"nameOnDisk" : "colossus_client",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Colossus_client_main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

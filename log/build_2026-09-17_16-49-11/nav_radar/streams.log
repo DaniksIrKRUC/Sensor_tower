@@ -1,0 +1,163 @@
+[0.015s] Invoking command in '/home/ros2/tower_ws/build/nav_radar': CMAKE_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:/home/ros2/tower_ws/install/zed_ros2:/home/ros2/tower_ws/install/zed_wrapper:/home/ros2/tower_ws/install/zed_components:/home/ros2/tower_ws/install/nav_launch:/home/ros2/tower_ws/install/nav_radar:/home/ros2/tower_ws/install/nav_camera:/home/ros2/ros2_ws/install/zed_ros2:/home/ros2/ros2_ws/install/zed_wrapper:/home/ros2/ros2_ws/install/zed_components:/home/ros2/Downloads/final-ai/install/detectionmessage:/home/ros2/Downloads/ros2cs/install:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/tower_ws/install/nav_messages/lib:/home/ros2/tower_ws/install/zed_components/lib:/home/ros2/ros2_ws/install/zed_components/lib:/home/ros2/Downloads/final-ai/install/detectionmessage/lib:/home/ros2/Downloads/ros2cs/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ros2/tower_ws/build/nav_radar -- -j24 -l24
+[0.090s] [  1%] [32mBuilding CXX object protobuf/CMakeFiles/protobuf.dir/configurationdata.pb.cc.o[0m
+[0.099s] [  2%] [32mBuilding CXX object protobuf/CMakeFiles/protobuf.dir/health.pb.cc.o[0m
+[0.100s] [  4%] [32mBuilding CXX object utility/CMakeFiles/utility.dir/Signal_handler.cpp.o[0m
+[0.100s] [  4%] [32mBuilding CXX object utility/CMakeFiles/utility.dir/Log.cpp.o[0m
+[0.101s] [  5%] [32mBuilding CXX object protobuf/CMakeFiles/protobuf.dir/discovery.pb.cc.o[0m
+[0.105s] [  6%] [32mBuilding CXX object utility/CMakeFiles/utility.dir/Time_utils.cpp.o[0m
+[0.105s] [  8%] [32mBuilding CXX object utility/CMakeFiles/utility.dir/Option_parser.cpp.o[0m
+[0.106s] [  7%] [32mBuilding CXX object protobuf/CMakeFiles/protobuf.dir/healthinfo.pb.cc.o[0m
+[0.111s] [  9%] [32mBuilding CXX object utility/CMakeFiles/utility.dir/Timer.cpp.o[0m
+[0.112s] [ 11%] [32mBuilding CXX object utility/CMakeFiles/utility.dir/threading/Active.cpp.o[0m
+[0.118s] [ 12%] [32mBuilding CXX object protobuf/CMakeFiles/protobuf.dir/networkinfo.pb.cc.o[0m
+[0.118s] [ 10%] [32mBuilding CXX object utility/CMakeFiles/utility.dir/Cartesian_coordinate.cpp.o[0m
+[0.122s] [ 13%] [32mBuilding CXX object utility/CMakeFiles/utility.dir/Polar_coordinate.cpp.o[0m
+[0.123s] [ 14%] [32mBuilding CXX object protobuf/CMakeFiles/protobuf.dir/radarmodel.pb.cc.o[0m
+[0.123s] [ 15%] [32mBuilding CXX object utility/CMakeFiles/utility.dir/threading/Mutex.cpp.o[0m
+[0.124s] [ 16%] [32mBuilding CXX object protobuf/CMakeFiles/protobuf.dir/nvramcontents.pb.cc.o[0m
+[0.134s] [ 17%] [32mBuilding CXX object protobuf/CMakeFiles/protobuf.dir/softwareversions.pb.cc.o[0m
+[2.492s] [ 18%] [32m[1mLinking CXX static library libutility.a[0m
+[2.591s] [ 18%] Built target utility
+[3.402s] [ 19%] [32m[1mLinking CXX static library libprotobuf.a[0m
+[3.481s] [ 27%] Built target protobuf
+[3.524s] [ 28%] [32mBuilding CXX object navigation/CMakeFiles/navigation.dir/Sector_blanking.cpp.o[0m
+[3.524s] [ 29%] [32mBuilding CXX object navigation/CMakeFiles/navigation.dir/Peak_finder.cpp.o[0m
+[4.945s] [ 30%] [32m[1mLinking CXX static library libnavigation.a[0m
+[4.982s] [ 30%] Built target navigation
+[5.032s] [ 31%] [32mBuilding CXX object network/CMakeFiles/networking.dir/core/socket/Socket.cpp.o[0m
+[5.038s] [ 32%] [32mBuilding CXX object network/CMakeFiles/networking.dir/core/socket/UDP_socket.cpp.o[0m
+[5.039s] [ 33%] [32mBuilding CXX object network/CMakeFiles/networking.dir/core/socket/TCP_socket.cpp.o[0m
+[5.043s] [ 34%] [32mBuilding CXX object network/CMakeFiles/networking.dir/core/utility/IP_address.cpp.o[0m
+[5.049s] [ 34%] [32mBuilding CXX object network/CMakeFiles/networking.dir/core/utility/MAC_address.cpp.o[0m
+[5.049s] [ 35%] [32mBuilding CXX object network/CMakeFiles/networking.dir/core/utility/net_conversion.cpp.o[0m
+[5.051s] [ 36%] [32mBuilding CXX object network/CMakeFiles/networking.dir/protocol/CAT_240/client/Cat240_client.cpp.o[0m
+[5.055s] [ 37%] [32mBuilding CXX object network/CMakeFiles/networking.dir/protocol/CAT_240/event_handling/Cat240_events.cpp.o[0m
+[5.070s] [ 38%] [32mBuilding CXX object network/CMakeFiles/networking.dir/protocol/CAT_240/server/Cat240_server.cpp.o[0m
+[5.077s] [ 39%] [32mBuilding CXX object network/CMakeFiles/networking.dir/protocol/CAT_240/protocol/Cat240_message.cpp.o[0m
+[5.078s] [ 40%] [32mBuilding CXX object network/CMakeFiles/networking.dir/protocol/Colossus/client/Colossus_client.cpp.o[0m
+[5.082s] [ 41%] [32mBuilding CXX object network/CMakeFiles/networking.dir/protocol/Colossus/server/Colossus_server.cpp.o[0m
+[5.082s] [ 42%] [32mBuilding CXX object network/CMakeFiles/networking.dir/protocol/Colossus/event_handling/Colossus_events.cpp.o[0m
+[5.091s] [ 43%] [32mBuilding CXX object network/CMakeFiles/networking.dir/protocol/Colossus/test/Colossus_test.cpp.o[0m
+[5.092s] [ 44%] [32mBuilding CXX object network/CMakeFiles/networking.dir/protocol/Colossus/test/Colossus_test_runner.cpp.o[0m
+[5.097s] [ 45%] [32mBuilding CXX object network/CMakeFiles/networking.dir/protocol/Colossus/protocol/Colossus_network_message.cpp.o[0m
+[5.111s] [ 46%] [32mBuilding CXX object network/CMakeFiles/networking.dir/protocol/Colossus/test/Colossus_test_cases.cpp.o[0m
+[5.119s] [ 47%] [32mBuilding CXX object network/CMakeFiles/networking.dir/protocol/Colossus_UDP/client/Colossus_UDP_client.cpp.o[0m
+[5.131s] [ 48%] [32mBuilding CXX object network/CMakeFiles/networking.dir/protocol/NMEA/protocol/NMEA_message.cpp.o[0m
+[5.135s] [ 49%] [32mBuilding CXX object network/CMakeFiles/networking.dir/protocol/Colossus_UDP/event_handling/Colossus_UDP_events.cpp.o[0m
+[5.142s] [ 50%] [32mBuilding CXX object network/CMakeFiles/networking.dir/protocol/NMEA/protocol/NMEA_parser.cpp.o[0m
+[5.149s] [ 51%] [32mBuilding CXX object network/CMakeFiles/networking.dir/protocol/Colossus_UDP/protocol/Colossus_UDP_network_message.cpp.o[0m
+[5.150s] [ 52%] [32mBuilding CXX object network/CMakeFiles/networking.dir/protocol/NMEA/client/NMEA_client.cpp.o[0m
+[5.162s] [ 53%] [32mBuilding CXX object network/CMakeFiles/networking.dir/protocol/NMEA/server/NMEA_server.cpp.o[0m
+[5.462s] [ 54%] [32mBuilding CXX object network/CMakeFiles/networking.dir/protocol/NMEA/event_handling/NMEA_events.cpp.o[0m
+[9.459s] [ 55%] [32m[1mLinking CXX static library libnetworking.a[0m
+[9.618s] [ 55%] Built target networking
+[9.657s] [ 56%] [32mBuilding CXX object CMakeFiles/colossus_subscriber_to_video.dir/src/subscribers/colossus_subscriber_to_video_main.cpp.o[0m
+[9.658s] [ 57%] [32mBuilding CXX object CMakeFiles/colossus_publisher.dir/src/publishers/colossus_publisher_main.cpp.o[0m
+[9.659s] [ 58%] [32mBuilding CXX object CMakeFiles/colossus_subscriber.dir/src/subscribers/colossus_subscriber_main.cpp.o[0m
+[9.659s] [ 59%] [32mBuilding CXX object CMakeFiles/colossus_subscriber.dir/src/subscribers/colossus_subscriber.cpp.o[0m
+[9.662s] [ 60%] [32mBuilding CXX object CMakeFiles/colossus_publisher.dir/src/publishers/colossus_publisher.cpp.o[0m
+[9.665s] [ 61%] [32mBuilding CXX object CMakeFiles/colossus_subscriber_to_video.dir/src/subscribers/colossus_subscriber_to_video.cpp.o[0m
+[9.665s] [ 62%] [32mBuilding CXX object CMakeFiles/laser_scan_publisher.dir/src/publishers/laser_scan_publisher_main.cpp.o[0m
+[9.673s] [ 63%] [32mBuilding CXX object CMakeFiles/point_cloud_publisher.dir/src/publishers/point_cloud_publisher.cpp.o[0m
+[9.673s] [ 64%] [32mBuilding CXX object CMakeFiles/laser_scan_subscriber_to_video.dir/src/subscribers/laser_scan_subscriber_to_video_main.cpp.o[0m
+[9.673s] [ 65%] [32mBuilding CXX object CMakeFiles/laser_scan_subscriber_to_video.dir/src/subscribers/laser_scan_subscriber_to_video.cpp.o[0m
+[9.678s] [ 66%] [32mBuilding CXX object CMakeFiles/point_cloud_publisher.dir/src/publishers/point_cloud_publisher_main.cpp.o[0m
+[9.678s] [ 67%] [32mBuilding CXX object CMakeFiles/laser_scan_publisher.dir/src/publishers/laser_scan_publisher.cpp.o[0m
+[9.681s] [ 68%] [32mBuilding CXX object CMakeFiles/colossus_subscriber_laser_scan_publisher.dir/src/publishers/colossus_subscriber_laser_scan_publisher_main.cpp.o[0m
+[9.688s] [ 69%] [32mBuilding CXX object CMakeFiles/laser_scan_subscriber.dir/src/subscribers/laser_scan_subscriber_main.cpp.o[0m
+[9.690s] [ 70%] [32mBuilding CXX object CMakeFiles/colossus_subscriber_laser_scan_publisher.dir/src/publishers/colossus_subscriber_laser_scan_publisher.cpp.o[0m
+[9.696s] [ 70%] [32mBuilding CXX object CMakeFiles/b_scan_publisher.dir/src/publishers/b_scan_publisher_main.cpp.o[0m
+[9.704s] [ 71%] [32mBuilding CXX object CMakeFiles/b_scan_publisher.dir/src/publishers/b_scan_publisher.cpp.o[0m
+[9.707s] [ 72%] [32mBuilding CXX object CMakeFiles/laser_scan_subscriber.dir/src/subscribers/laser_scan_subscriber.cpp.o[0m
+[9.713s] [ 73%] [32mBuilding CXX object CMakeFiles/colossus_subscriber_point_cloud_publisher.dir/src/publishers/colossus_subscriber_point_cloud_publisher_main.cpp.o[0m
+[9.715s] [ 74%] [32mBuilding CXX object CMakeFiles/navigation_mode_point_cloud_publisher.dir/src/publishers/navigation_mode_point_cloud_publisher_main.cpp.o[0m
+[9.722s] [ 75%] [32mBuilding CXX object CMakeFiles/cfar_point_cloud_publisher.dir/src/publishers/cfar_point_cloud_publisher_main.cpp.o[0m
+[9.722s] [ 76%] [32mBuilding CXX object CMakeFiles/native_point_cloud_publisher.dir/src/publishers/native_point_cloud_publisher_main.cpp.o[0m
+[9.722s] [ 77%] [32mBuilding CXX object CMakeFiles/colossus_and_camera_publisher.dir/src/publishers/colossus_and_camera_publisher_main.cpp.o[0m
+[9.729s] [ 78%] [32mBuilding CXX object CMakeFiles/colossus_and_camera_subscriber_to_video.dir/src/subscribers/colossus_and_camera_subscriber_to_video_main.cpp.o[0m
+[13.464s] [ 79%] [32mBuilding CXX object CMakeFiles/colossus_and_camera_publisher.dir/src/publishers/colossus_and_camera_publisher.cpp.o[0m
+[13.537s] [ 80%] [32mBuilding CXX object CMakeFiles/colossus_subscriber_point_cloud_publisher.dir/src/publishers/colossus_subscriber_point_cloud_publisher.cpp.o[0m
+[14.204s] [ 81%] [32mBuilding CXX object CMakeFiles/native_point_cloud_publisher.dir/src/publishers/native_point_cloud_publisher.cpp.o[0m
+[15.162s] [ 82%] [32mBuilding CXX object CMakeFiles/colossus_and_camera_publisher.dir/home/ros2/tower_ws/src/navtech/src/nav_camera/src/common/video_capture_manager.cpp.o[0m
+[15.373s] [ 83%] [32mBuilding CXX object CMakeFiles/cfar_point_cloud_publisher.dir/src/publishers/cfar_point_cloud_publisher.cpp.o[0m
+[15.538s] [ 84%] [32mBuilding CXX object CMakeFiles/navigation_mode_point_cloud_publisher.dir/src/publishers/navigation_mode_point_cloud_publisher.cpp.o[0m
+[15.756s] [ 85%] [32mBuilding CXX object CMakeFiles/colossus_and_camera_subscriber_to_video.dir/src/subscribers/colossus_and_camera_subscriber_to_video.cpp.o[0m
+[24.775s] [ 86%] [32m[1mLinking CXX executable b_scan_publisher[0m
+[25.017s] [ 87%] [32m[1mLinking CXX executable native_point_cloud_publisher[0m
+[25.602s] [ 88%] [32m[1mLinking CXX executable point_cloud_publisher[0m
+[25.767s] [ 88%] Built target native_point_cloud_publisher
+[25.836s] [ 88%] Built target b_scan_publisher
+[25.971s] [ 89%] [32m[1mLinking CXX executable laser_scan_publisher[0m
+[26.372s] [ 89%] Built target point_cloud_publisher
+[26.938s] [ 89%] Built target laser_scan_publisher
+[27.663s] [ 90%] [32m[1mLinking CXX executable colossus_publisher[0m
+[28.511s] [ 90%] Built target colossus_publisher
+[30.007s] [ 91%] [32m[1mLinking CXX executable navigation_mode_point_cloud_publisher[0m
+[30.746s] [ 91%] Built target navigation_mode_point_cloud_publisher
+[30.855s] [ 92%] [32m[1mLinking CXX executable cfar_point_cloud_publisher[0m
+[31.420s] [ 92%] Built target cfar_point_cloud_publisher
+[32.626s] [ 93%] [32m[1mLinking CXX executable colossus_subscriber[0m
+[33.281s] [ 93%] Built target colossus_subscriber
+[33.386s] [ 94%] [32m[1mLinking CXX executable colossus_subscriber_laser_scan_publisher[0m
+[33.980s] [ 95%] [32m[1mLinking CXX executable colossus_and_camera_publisher[0m
+[34.011s] [ 95%] Built target colossus_subscriber_laser_scan_publisher
+[34.388s] [ 96%] [32m[1mLinking CXX executable laser_scan_subscriber[0m
+[34.502s] [ 97%] [32m[1mLinking CXX executable laser_scan_subscriber_to_video[0m
+[34.851s] [ 97%] Built target colossus_and_camera_publisher
+[34.982s] [ 98%] [32m[1mLinking CXX executable colossus_subscriber_to_video[0m
+[34.992s] [ 98%] Built target laser_scan_subscriber
+[35.486s] [ 98%] Built target laser_scan_subscriber_to_video
+[35.891s] [ 98%] Built target colossus_subscriber_to_video
+[36.962s] [ 99%] [32m[1mLinking CXX executable colossus_subscriber_point_cloud_publisher[0m
+[37.507s] [ 99%] Built target colossus_subscriber_point_cloud_publisher
+[41.138s] [100%] [32m[1mLinking CXX executable colossus_and_camera_subscriber_to_video[0m
+[42.154s] [100%] Built target colossus_and_camera_subscriber_to_video
+[42.167s] Invoked command in '/home/ros2/tower_ws/build/nav_radar' returned '0': CMAKE_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:/home/ros2/tower_ws/install/zed_ros2:/home/ros2/tower_ws/install/zed_wrapper:/home/ros2/tower_ws/install/zed_components:/home/ros2/tower_ws/install/nav_launch:/home/ros2/tower_ws/install/nav_radar:/home/ros2/tower_ws/install/nav_camera:/home/ros2/ros2_ws/install/zed_ros2:/home/ros2/ros2_ws/install/zed_wrapper:/home/ros2/ros2_ws/install/zed_components:/home/ros2/Downloads/final-ai/install/detectionmessage:/home/ros2/Downloads/ros2cs/install:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/tower_ws/install/nav_messages/lib:/home/ros2/tower_ws/install/zed_components/lib:/home/ros2/ros2_ws/install/zed_components/lib:/home/ros2/Downloads/final-ai/install/detectionmessage/lib:/home/ros2/Downloads/ros2cs/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ros2/tower_ws/build/nav_radar -- -j24 -l24
+[42.169s] Invoking command in '/home/ros2/tower_ws/build/nav_radar': CMAKE_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:/home/ros2/tower_ws/install/zed_ros2:/home/ros2/tower_ws/install/zed_wrapper:/home/ros2/tower_ws/install/zed_components:/home/ros2/tower_ws/install/nav_launch:/home/ros2/tower_ws/install/nav_radar:/home/ros2/tower_ws/install/nav_camera:/home/ros2/ros2_ws/install/zed_ros2:/home/ros2/ros2_ws/install/zed_wrapper:/home/ros2/ros2_ws/install/zed_components:/home/ros2/Downloads/final-ai/install/detectionmessage:/home/ros2/Downloads/ros2cs/install:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/tower_ws/install/nav_messages/lib:/home/ros2/tower_ws/install/zed_components/lib:/home/ros2/ros2_ws/install/zed_components/lib:/home/ros2/Downloads/final-ai/install/detectionmessage/lib:/home/ros2/Downloads/ros2cs/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ros2/tower_ws/build/nav_radar
+[42.178s] -- Install configuration: ""
+[42.179s] -- Installing: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/colossus_publisher
+[42.181s] -- Set runtime path of "/home/ros2/tower_ws/install/nav_radar/lib/nav_radar/colossus_publisher" to ""
+[42.181s] -- Installing: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/colossus_subscriber
+[42.184s] -- Set runtime path of "/home/ros2/tower_ws/install/nav_radar/lib/nav_radar/colossus_subscriber" to ""
+[42.184s] -- Installing: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/colossus_subscriber_to_video
+[42.187s] -- Set runtime path of "/home/ros2/tower_ws/install/nav_radar/lib/nav_radar/colossus_subscriber_to_video" to ""
+[42.187s] -- Installing: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/laser_scan_publisher
+[42.189s] -- Set runtime path of "/home/ros2/tower_ws/install/nav_radar/lib/nav_radar/laser_scan_publisher" to ""
+[42.189s] -- Installing: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/laser_scan_subscriber
+[42.192s] -- Set runtime path of "/home/ros2/tower_ws/install/nav_radar/lib/nav_radar/laser_scan_subscriber" to ""
+[42.192s] -- Installing: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/laser_scan_subscriber_to_video
+[42.195s] -- Set runtime path of "/home/ros2/tower_ws/install/nav_radar/lib/nav_radar/laser_scan_subscriber_to_video" to ""
+[42.195s] -- Installing: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/point_cloud_publisher
+[42.197s] -- Set runtime path of "/home/ros2/tower_ws/install/nav_radar/lib/nav_radar/point_cloud_publisher" to ""
+[42.197s] -- Installing: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/navigation_mode_point_cloud_publisher
+[42.200s] -- Set runtime path of "/home/ros2/tower_ws/install/nav_radar/lib/nav_radar/navigation_mode_point_cloud_publisher" to ""
+[42.200s] -- Installing: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/b_scan_publisher
+[42.202s] -- Set runtime path of "/home/ros2/tower_ws/install/nav_radar/lib/nav_radar/b_scan_publisher" to ""
+[42.202s] -- Installing: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/colossus_and_camera_publisher
+[42.204s] -- Set runtime path of "/home/ros2/tower_ws/install/nav_radar/lib/nav_radar/colossus_and_camera_publisher" to ""
+[42.204s] -- Installing: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/colossus_and_camera_subscriber_to_video
+[42.209s] -- Set runtime path of "/home/ros2/tower_ws/install/nav_radar/lib/nav_radar/colossus_and_camera_subscriber_to_video" to ""
+[42.209s] -- Installing: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/colossus_subscriber_laser_scan_publisher
+[42.212s] -- Set runtime path of "/home/ros2/tower_ws/install/nav_radar/lib/nav_radar/colossus_subscriber_laser_scan_publisher" to ""
+[42.212s] -- Installing: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/colossus_subscriber_point_cloud_publisher
+[42.215s] -- Set runtime path of "/home/ros2/tower_ws/install/nav_radar/lib/nav_radar/colossus_subscriber_point_cloud_publisher" to ""
+[42.216s] -- Installing: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/cfar_point_cloud_publisher
+[42.217s] -- Set runtime path of "/home/ros2/tower_ws/install/nav_radar/lib/nav_radar/cfar_point_cloud_publisher" to ""
+[42.218s] -- Installing: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/native_point_cloud_publisher
+[42.219s] -- Set runtime path of "/home/ros2/tower_ws/install/nav_radar/lib/nav_radar/native_point_cloud_publisher" to ""
+[42.219s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/ament_index/resource_index/package_run_dependencies/nav_radar
+[42.219s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/ament_index/resource_index/parent_prefix_path/nav_radar
+[42.219s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/nav_radar/environment/ament_prefix_path.sh
+[42.219s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/nav_radar/environment/ament_prefix_path.dsv
+[42.219s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/nav_radar/environment/path.sh
+[42.219s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/nav_radar/environment/path.dsv
+[42.219s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/nav_radar/local_setup.bash
+[42.219s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/nav_radar/local_setup.sh
+[42.219s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/nav_radar/local_setup.zsh
+[42.219s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/nav_radar/local_setup.dsv
+[42.219s] -- Installing: /home/ros2/tower_ws/install/nav_radar/share/nav_radar/package.dsv
+[42.219s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/ament_index/resource_index/packages/nav_radar
+[42.219s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/nav_radar/cmake/nav_radarConfig.cmake
+[42.219s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/nav_radar/cmake/nav_radarConfig-version.cmake
+[42.220s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/nav_radar/package.xml
+[42.222s] Invoked command in '/home/ros2/tower_ws/build/nav_radar' returned '0': CMAKE_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:/home/ros2/tower_ws/install/zed_ros2:/home/ros2/tower_ws/install/zed_wrapper:/home/ros2/tower_ws/install/zed_components:/home/ros2/tower_ws/install/nav_launch:/home/ros2/tower_ws/install/nav_radar:/home/ros2/tower_ws/install/nav_camera:/home/ros2/ros2_ws/install/zed_ros2:/home/ros2/ros2_ws/install/zed_wrapper:/home/ros2/ros2_ws/install/zed_components:/home/ros2/Downloads/final-ai/install/detectionmessage:/home/ros2/Downloads/ros2cs/install:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/tower_ws/install/nav_messages/lib:/home/ros2/tower_ws/install/zed_components/lib:/home/ros2/ros2_ws/install/zed_components/lib:/home/ros2/Downloads/final-ai/install/detectionmessage/lib:/home/ros2/Downloads/ros2cs/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ros2/tower_ws/build/nav_radar

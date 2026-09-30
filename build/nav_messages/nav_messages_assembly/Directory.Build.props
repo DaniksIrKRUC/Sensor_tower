@@ -1,0 +1,5 @@
+<Project>
+  <PropertyGroup Condition="$(MSBuildProjectName.Contains('dotnetcore'))">
+    <BaseIntermediateOutputPath>nav_messages_assembly\</BaseIntermediateOutputPath>
+  </PropertyGroup>
+</Project>

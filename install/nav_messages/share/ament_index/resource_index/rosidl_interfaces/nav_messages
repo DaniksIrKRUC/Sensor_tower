@@ -1,0 +1,6 @@
+msg/CameraConfigurationMessage.idl
+msg/CameraConfigurationMessage.msg
+msg/RadarConfigurationMessage.idl
+msg/RadarConfigurationMessage.msg
+msg/RadarFftDataMessage.idl
+msg/RadarFftDataMessage.msg

@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/nav_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_messages/msg/detail/camera_configuration_message__type_support.cpp.o"
+  "CMakeFiles/nav_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_messages/msg/detail/camera_configuration_message__type_support.cpp.o.d"
+  "CMakeFiles/nav_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_messages/msg/detail/radar_configuration_message__type_support.cpp.o"
+  "CMakeFiles/nav_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_messages/msg/detail/radar_configuration_message__type_support.cpp.o.d"
+  "CMakeFiles/nav_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_messages/msg/detail/radar_fft_data_message__type_support.cpp.o"
+  "CMakeFiles/nav_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_messages/msg/detail/radar_fft_data_message__type_support.cpp.o.d"
+  "libnav_messages__rosidl_typesupport_introspection_cpp.pdb"
+  "libnav_messages__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/nav_messages/msg/detail/camera_configuration_message__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/nav_messages/msg/detail/camera_configuration_message__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/nav_messages/msg/detail/radar_configuration_message__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/nav_messages/msg/detail/radar_configuration_message__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/nav_messages/msg/detail/radar_fft_data_message__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/nav_messages/msg/detail/radar_fft_data_message__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/nav_messages__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

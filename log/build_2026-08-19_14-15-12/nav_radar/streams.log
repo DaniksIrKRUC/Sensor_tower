@@ -1,0 +1,73 @@
+[0.007s] Invoking command in '/home/ros2/tower_ws/build/nav_radar': CMAKE_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:/home/ros2/tower_ws/install/nav_launch:/home/ros2/tower_ws/install/nav_radar:/home/ros2/tower_ws/install/nav_camera:/home/ros2/ros2_ws/install/zed_ros2:/home/ros2/ros2_ws/install/zed_wrapper:/home/ros2/ros2_ws/install/zed_components:/home/ros2/Downloads/final-ai/install/detectionmessage:/home/ros2/Downloads/ros2cs/install:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble /usr/bin/cmake --build /home/ros2/tower_ws/build/nav_radar -- -j24 -l24
+[0.038s] [35m[1mConsolidate compiler generated dependencies of target utility[0m
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target protobuf[0m
+[0.065s] [ 10%] Built target utility
+[0.073s] [ 27%] Built target protobuf
+[0.085s] [35m[1mConsolidate compiler generated dependencies of target navigation[0m
+[0.096s] [ 30%] Built target navigation
+[0.108s] [35m[1mConsolidate compiler generated dependencies of target networking[0m
+[0.128s] [ 55%] Built target networking
+[0.138s] [35m[1mConsolidate compiler generated dependencies of target colossus_publisher[0m
+[0.140s] [35m[1mConsolidate compiler generated dependencies of target laser_scan_subscriber_to_video[0m
+[0.140s] [35m[1mConsolidate compiler generated dependencies of target colossus_subscriber[0m
+[0.140s] [35m[1mConsolidate compiler generated dependencies of target laser_scan_subscriber[0m
+[0.140s] [35m[1mConsolidate compiler generated dependencies of target laser_scan_publisher[0m
+[0.140s] [35m[1mConsolidate compiler generated dependencies of target colossus_subscriber_to_video[0m
+[0.141s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_publisher[0m
+[0.147s] [35m[1mConsolidate compiler generated dependencies of target navigation_mode_point_cloud_publisher[0m
+[0.147s] [35m[1mConsolidate compiler generated dependencies of target colossus_and_camera_publisher[0m
+[0.148s] [35m[1mConsolidate compiler generated dependencies of target native_point_cloud_publisher[0m
+[0.148s] [35m[1mConsolidate compiler generated dependencies of target colossus_subscriber_point_cloud_publisher[0m
+[0.150s] [35m[1mConsolidate compiler generated dependencies of target cfar_point_cloud_publisher[0m
+[0.156s] [35m[1mConsolidate compiler generated dependencies of target b_scan_publisher[0m
+[0.156s] [35m[1mConsolidate compiler generated dependencies of target colossus_and_camera_subscriber_to_video[0m
+[0.156s] [35m[1mConsolidate compiler generated dependencies of target colossus_subscriber_laser_scan_publisher[0m
+[0.156s] [ 61%] Built target laser_scan_subscriber_to_video
+[0.156s] [ 61%] Built target colossus_subscriber
+[0.157s] [ 64%] Built target colossus_publisher
+[0.158s] [ 67%] Built target colossus_subscriber_to_video
+[0.158s] [ 70%] Built target laser_scan_publisher
+[0.161s] [ 73%] Built target laser_scan_subscriber
+[0.169s] [ 76%] Built target colossus_subscriber_point_cloud_publisher
+[0.172s] [ 86%] Built target navigation_mode_point_cloud_publisher
+[0.172s] [ 86%] Built target cfar_point_cloud_publisher
+[0.173s] [ 86%] Built target point_cloud_publisher
+[0.173s] [ 91%] Built target native_point_cloud_publisher
+[0.173s] [ 91%] Built target colossus_and_camera_subscriber_to_video
+[0.176s] [ 95%] Built target colossus_and_camera_publisher
+[0.176s] [ 98%] Built target colossus_subscriber_laser_scan_publisher
+[0.176s] [100%] Built target b_scan_publisher
+[0.182s] Invoked command in '/home/ros2/tower_ws/build/nav_radar' returned '0': CMAKE_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:/home/ros2/tower_ws/install/nav_launch:/home/ros2/tower_ws/install/nav_radar:/home/ros2/tower_ws/install/nav_camera:/home/ros2/ros2_ws/install/zed_ros2:/home/ros2/ros2_ws/install/zed_wrapper:/home/ros2/ros2_ws/install/zed_components:/home/ros2/Downloads/final-ai/install/detectionmessage:/home/ros2/Downloads/ros2cs/install:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble /usr/bin/cmake --build /home/ros2/tower_ws/build/nav_radar -- -j24 -l24
+[0.183s] Invoking command in '/home/ros2/tower_ws/build/nav_radar': CMAKE_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:/home/ros2/tower_ws/install/nav_launch:/home/ros2/tower_ws/install/nav_radar:/home/ros2/tower_ws/install/nav_camera:/home/ros2/ros2_ws/install/zed_ros2:/home/ros2/ros2_ws/install/zed_wrapper:/home/ros2/ros2_ws/install/zed_components:/home/ros2/Downloads/final-ai/install/detectionmessage:/home/ros2/Downloads/ros2cs/install:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble /usr/bin/cmake --install /home/ros2/tower_ws/build/nav_radar
+[0.188s] -- Install configuration: ""
+[0.188s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/colossus_publisher
+[0.188s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/colossus_subscriber
+[0.188s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/colossus_subscriber_to_video
+[0.189s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/laser_scan_publisher
+[0.189s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/laser_scan_subscriber
+[0.189s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/laser_scan_subscriber_to_video
+[0.189s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/point_cloud_publisher
+[0.189s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/navigation_mode_point_cloud_publisher
+[0.189s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/b_scan_publisher
+[0.189s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/colossus_and_camera_publisher
+[0.189s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/colossus_and_camera_subscriber_to_video
+[0.190s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/colossus_subscriber_laser_scan_publisher
+[0.190s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/colossus_subscriber_point_cloud_publisher
+[0.190s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/cfar_point_cloud_publisher
+[0.190s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/native_point_cloud_publisher
+[0.190s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/ament_index/resource_index/package_run_dependencies/nav_radar
+[0.190s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/ament_index/resource_index/parent_prefix_path/nav_radar
+[0.190s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/nav_radar/environment/ament_prefix_path.sh
+[0.190s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/nav_radar/environment/ament_prefix_path.dsv
+[0.191s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/nav_radar/environment/path.sh
+[0.191s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/nav_radar/environment/path.dsv
+[0.191s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/nav_radar/local_setup.bash
+[0.191s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/nav_radar/local_setup.sh
+[0.191s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/nav_radar/local_setup.zsh
+[0.191s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/nav_radar/local_setup.dsv
+[0.191s] -- Installing: /home/ros2/tower_ws/install/nav_radar/share/nav_radar/package.dsv
+[0.191s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/ament_index/resource_index/packages/nav_radar
+[0.191s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/nav_radar/cmake/nav_radarConfig.cmake
+[0.191s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/nav_radar/cmake/nav_radarConfig-version.cmake
+[0.191s] -- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/nav_radar/package.xml
+[0.192s] Invoked command in '/home/ros2/tower_ws/build/nav_radar' returned '0': CMAKE_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:/home/ros2/tower_ws/install/nav_launch:/home/ros2/tower_ws/install/nav_radar:/home/ros2/tower_ws/install/nav_camera:/home/ros2/ros2_ws/install/zed_ros2:/home/ros2/ros2_ws/install/zed_wrapper:/home/ros2/ros2_ws/install/zed_components:/home/ros2/Downloads/final-ai/install/detectionmessage:/home/ros2/Downloads/ros2cs/install:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble /usr/bin/cmake --install /home/ros2/tower_ws/build/nav_radar

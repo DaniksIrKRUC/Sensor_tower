@@ -1,0 +1,45 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from nav_messages/msg/RadarFftDataMessage.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module nav_messages {
+  module msg {
+    @verbatim (language="comment", text=
+      "A ROS message based on an FFT data message from a radar")
+    struct RadarFftDataMessage {
+      @verbatim (language="comment", text=
+        "add a header message to hold message timestamp")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "angle (double) represented as a network order (uint8_t) byte array")
+      sequence<uint8> angle;
+
+      @verbatim (language="comment", text=
+        "azimuth (uint16_t) represented as a network order (uint8_t) byte array")
+      sequence<uint8> azimuth;
+
+      @verbatim (language="comment", text=
+        "sweep_counter (uint16_t) represented as a network order (uint8_t) byte array")
+      sequence<uint8> sweep_counter;
+
+      @verbatim (language="comment", text=
+        "ntp_seconds (uint32_t) represented as a network order (uint8_t) byte array")
+      sequence<uint8> ntp_seconds;
+
+      @verbatim (language="comment", text=
+        "ntp_split_seconds (uint32_t) represented as a network order (uint8_t) byte array")
+      sequence<uint8> ntp_split_seconds;
+
+      @verbatim (language="comment", text=
+        "data (uint8_t) represented as a network order (uint8_t) byte array")
+      sequence<uint8> data;
+
+      @verbatim (language="comment", text=
+        "data_length (uint16_t) represented as a network order (uint8_t) byte array")
+      sequence<uint8> data_length;
+    };
+  };
+};

@@ -1,0 +1,8 @@
+{
+  "package_name": "nav_messages",
+  "non_idl_tuples": [
+    "/home/ros2/tower_ws/src/navtech/src/nav_messages:msg/RadarConfigurationMessage.msg",
+    "/home/ros2/tower_ws/src/navtech/src/nav_messages:msg/RadarFftDataMessage.msg",
+    "/home/ros2/tower_ws/src/navtech/src/nav_messages:msg/CameraConfigurationMessage.msg"
+  ]
+}

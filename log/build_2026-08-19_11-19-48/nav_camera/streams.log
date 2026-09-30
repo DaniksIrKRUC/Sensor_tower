@@ -1,0 +1,82 @@
+[0.008s] Invoking command in '/home/ros2/tower_ws/build/nav_camera': AMENT_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:/home/ros2/ros2_ws/install/zed_ros2:/home/ros2/ros2_ws/install/zed_wrapper:/home/ros2/ros2_ws/install/zed_components:/home/ros2/Downloads/final-ai/install/detectionmessage:/home/ros2/Downloads/ros2cs/install:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/tower_ws/install/nav_messages/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/tower_ws/install/nav_messages/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ros2/tower_ws/src/navtech/src/nav_camera -DCMAKE_INSTALL_PREFIX=/home/ros2/tower_ws/install/nav_camera
+[0.058s] -- The C compiler identification is GNU 11.4.0
+[0.101s] -- The CXX compiler identification is GNU 11.4.0
+[0.106s] -- Detecting C compiler ABI info
+[0.166s] -- Detecting C compiler ABI info - done
+[0.171s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.171s] -- Detecting C compile features
+[0.171s] -- Detecting C compile features - done
+[0.173s] -- Detecting CXX compiler ABI info
+[0.241s] -- Detecting CXX compiler ABI info - done
+[0.249s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.249s] -- Detecting CXX compile features
+[0.249s] -- Detecting CXX compile features - done
+[0.255s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.404s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.496s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.551s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.556s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.564s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.574s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.588s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.639s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.642s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.710s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.728s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.759s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.767s] -- Looking for pthread.h
+[0.814s] -- Looking for pthread.h - found
+[0.814s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.866s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.867s] -- Found Threads: TRUE  
+[0.923s] -- Found nav_messages: 1.0.0 (/home/ros2/tower_ws/install/nav_messages/share/nav_messages/cmake)
+[0.940s] -- Found sensor_msgs: 4.9.0 (/home/ros2/Downloads/ros2cs/install/share/sensor_msgs/cmake)
+[0.974s] -- Found OpenCV: /usr (found suitable version "4.5.4", minimum required is "4.2.0") 
+[1.029s] -- Configuring done
+[1.052s] -- Generating done
+[1.059s] -- Build files have been written to: /home/ros2/tower_ws/build/nav_camera
+[1.066s] Invoked command in '/home/ros2/tower_ws/build/nav_camera' returned '0': AMENT_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:/home/ros2/ros2_ws/install/zed_ros2:/home/ros2/ros2_ws/install/zed_wrapper:/home/ros2/ros2_ws/install/zed_components:/home/ros2/Downloads/final-ai/install/detectionmessage:/home/ros2/Downloads/ros2cs/install:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/tower_ws/install/nav_messages/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/tower_ws/install/nav_messages/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ros2/tower_ws/src/navtech/src/nav_camera -DCMAKE_INSTALL_PREFIX=/home/ros2/tower_ws/install/nav_camera
+[1.067s] Invoking command in '/home/ros2/tower_ws/build/nav_camera': AMENT_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:/home/ros2/ros2_ws/install/zed_ros2:/home/ros2/ros2_ws/install/zed_wrapper:/home/ros2/ros2_ws/install/zed_components:/home/ros2/Downloads/final-ai/install/detectionmessage:/home/ros2/Downloads/ros2cs/install:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/tower_ws/install/nav_messages/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/tower_ws/install/nav_messages/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/tower_ws/build/nav_camera -- -j24 -l24
+[1.111s] [ 25%] [32mBuilding CXX object CMakeFiles/video_capture_manager.dir/src/common/video_capture_manager_main.cpp.o[0m
+[1.111s] [ 25%] [32mBuilding CXX object CMakeFiles/camera_subscriber_to_video.dir/src/subscribers/camera_subscriber_to_video_main.cpp.o[0m
+[1.111s] [ 25%] [32mBuilding CXX object CMakeFiles/camera_subscriber_to_video.dir/src/subscribers/camera_subscriber_to_video.cpp.o[0m
+[1.113s] [ 33%] [32mBuilding CXX object CMakeFiles/video_capture_manager.dir/src/common/video_capture_manager.cpp.o[0m
+[1.113s] [ 50%] [32mBuilding CXX object CMakeFiles/camera_subscriber.dir/src/subscribers/camera_subscriber_main.cpp.o[0m
+[1.113s] [ 50%] [32mBuilding CXX object CMakeFiles/camera_publisher.dir/src/publishers/camera_publisher_main.cpp.o[0m
+[1.113s] [ 66%] [32mBuilding CXX object CMakeFiles/camera_publisher.dir/src/publishers/camera_publisher.cpp.o[0m
+[1.113s] [ 66%] [32mBuilding CXX object CMakeFiles/camera_subscriber.dir/src/subscribers/camera_subscriber.cpp.o[0m
+[2.893s] [ 75%] [32m[1mLinking CXX executable video_capture_manager[0m
+[3.273s] [ 75%] Built target video_capture_manager
+[6.121s] [ 83%] [32m[1mLinking CXX executable camera_publisher[0m
+[6.935s] [ 83%] Built target camera_publisher
+[12.029s] [ 91%] [32m[1mLinking CXX executable camera_subscriber_to_video[0m
+[12.852s] [100%] [32m[1mLinking CXX executable camera_subscriber[0m
+[13.075s] [100%] Built target camera_subscriber_to_video
+[13.451s] [100%] Built target camera_subscriber
+[13.463s] Invoked command in '/home/ros2/tower_ws/build/nav_camera' returned '0': AMENT_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:/home/ros2/ros2_ws/install/zed_ros2:/home/ros2/ros2_ws/install/zed_wrapper:/home/ros2/ros2_ws/install/zed_components:/home/ros2/Downloads/final-ai/install/detectionmessage:/home/ros2/Downloads/ros2cs/install:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/tower_ws/install/nav_messages/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/tower_ws/install/nav_messages/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/tower_ws/build/nav_camera -- -j24 -l24
+[13.465s] Invoking command in '/home/ros2/tower_ws/build/nav_camera': AMENT_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:/home/ros2/ros2_ws/install/zed_ros2:/home/ros2/ros2_ws/install/zed_wrapper:/home/ros2/ros2_ws/install/zed_components:/home/ros2/Downloads/final-ai/install/detectionmessage:/home/ros2/Downloads/ros2cs/install:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/tower_ws/install/nav_messages/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/tower_ws/install/nav_messages/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/tower_ws/build/nav_camera
+[13.473s] -- Install configuration: ""
+[13.473s] -- Installing: /home/ros2/tower_ws/install/nav_camera/lib/nav_camera/video_capture_manager
+[13.474s] -- Set runtime path of "/home/ros2/tower_ws/install/nav_camera/lib/nav_camera/video_capture_manager" to ""
+[13.474s] -- Installing: /home/ros2/tower_ws/install/nav_camera/lib/nav_camera/camera_publisher
+[13.475s] -- Set runtime path of "/home/ros2/tower_ws/install/nav_camera/lib/nav_camera/camera_publisher" to ""
+[13.475s] -- Installing: /home/ros2/tower_ws/install/nav_camera/lib/nav_camera/camera_subscriber
+[13.480s] -- Set runtime path of "/home/ros2/tower_ws/install/nav_camera/lib/nav_camera/camera_subscriber" to ""
+[13.480s] -- Installing: /home/ros2/tower_ws/install/nav_camera/lib/nav_camera/camera_subscriber_to_video
+[13.484s] -- Set runtime path of "/home/ros2/tower_ws/install/nav_camera/lib/nav_camera/camera_subscriber_to_video" to ""
+[13.485s] -- Installing: /home/ros2/tower_ws/install/nav_camera/share/ament_index/resource_index/package_run_dependencies/nav_camera
+[13.485s] -- Installing: /home/ros2/tower_ws/install/nav_camera/share/ament_index/resource_index/parent_prefix_path/nav_camera
+[13.485s] -- Installing: /home/ros2/tower_ws/install/nav_camera/share/nav_camera/environment/ament_prefix_path.sh
+[13.485s] -- Installing: /home/ros2/tower_ws/install/nav_camera/share/nav_camera/environment/ament_prefix_path.dsv
+[13.485s] -- Installing: /home/ros2/tower_ws/install/nav_camera/share/nav_camera/environment/path.sh
+[13.485s] -- Installing: /home/ros2/tower_ws/install/nav_camera/share/nav_camera/environment/path.dsv
+[13.485s] -- Installing: /home/ros2/tower_ws/install/nav_camera/share/nav_camera/local_setup.bash
+[13.485s] -- Installing: /home/ros2/tower_ws/install/nav_camera/share/nav_camera/local_setup.sh
+[13.485s] -- Installing: /home/ros2/tower_ws/install/nav_camera/share/nav_camera/local_setup.zsh
+[13.486s] -- Installing: /home/ros2/tower_ws/install/nav_camera/share/nav_camera/local_setup.dsv
+[13.486s] -- Installing: /home/ros2/tower_ws/install/nav_camera/share/nav_camera/package.dsv
+[13.486s] -- Installing: /home/ros2/tower_ws/install/nav_camera/share/ament_index/resource_index/packages/nav_camera
+[13.486s] -- Installing: /home/ros2/tower_ws/install/nav_camera/share/nav_camera/cmake/nav_cameraConfig.cmake
+[13.486s] -- Installing: /home/ros2/tower_ws/install/nav_camera/share/nav_camera/cmake/nav_cameraConfig-version.cmake
+[13.486s] -- Installing: /home/ros2/tower_ws/install/nav_camera/share/nav_camera/package.xml
+[13.489s] Invoked command in '/home/ros2/tower_ws/build/nav_camera' returned '0': AMENT_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:/home/ros2/ros2_ws/install/zed_ros2:/home/ros2/ros2_ws/install/zed_wrapper:/home/ros2/ros2_ws/install/zed_components:/home/ros2/Downloads/final-ai/install/detectionmessage:/home/ros2/Downloads/ros2cs/install:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/tower_ws/install/nav_messages/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/tower_ws/install/nav_messages/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/tower_ws/build/nav_camera

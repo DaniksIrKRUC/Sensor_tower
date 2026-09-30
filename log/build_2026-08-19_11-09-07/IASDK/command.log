@@ -1,0 +1,2 @@
+Invoking command in '/home/ros2/tower_ws/build/IASDK': /usr/bin/cmake /home/ros2/tower_ws/src/navtech/src/cpp_17/src -DCMAKE_INSTALL_PREFIX=/home/ros2/tower_ws/install/IASDK
+Invoked command in '/home/ros2/tower_ws/build/IASDK' returned '1': /usr/bin/cmake /home/ros2/tower_ws/src/navtech/src/cpp_17/src -DCMAKE_INSTALL_PREFIX=/home/ros2/tower_ws/install/IASDK

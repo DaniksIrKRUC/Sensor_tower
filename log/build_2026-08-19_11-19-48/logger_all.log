@@ -1,0 +1,461 @@
+[0.063s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.063s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=24, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x772bd605f310>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x772bd61a8580>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x772bd61a8580>>, mixin_verb=('build',))
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.176s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ros2/tower_ws'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech) by extension 'ros'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech) by extensions ['cmake', 'python']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech) by extension 'cmake'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech) by extension 'python'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech) by extensions ['python_setup_py']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech) by extension 'python_setup_py'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src) by extension 'ros'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src) by extensions ['cmake', 'python']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src) by extension 'cmake'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src) by extension 'python'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src) by extensions ['python_setup_py']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src) by extension 'python_setup_py'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/cpp_17) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/cpp_17) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/cpp_17) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/cpp_17) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/cpp_17) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/cpp_17) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/cpp_17) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/cpp_17) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/cpp_17) by extension 'ros'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/cpp_17) by extensions ['cmake', 'python']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/cpp_17) by extension 'cmake'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/cpp_17) by extension 'python'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/cpp_17) by extensions ['python_setup_py']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/cpp_17) by extension 'python_setup_py'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/cpp_17/protobuf) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/cpp_17/protobuf) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/cpp_17/protobuf) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/cpp_17/protobuf) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/cpp_17/protobuf) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/cpp_17/protobuf) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/cpp_17/protobuf) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/cpp_17/protobuf) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/cpp_17/protobuf) by extension 'ros'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/cpp_17/protobuf) by extensions ['cmake', 'python']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/cpp_17/protobuf) by extension 'cmake'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/cpp_17/protobuf) by extension 'python'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/cpp_17/protobuf) by extensions ['python_setup_py']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/cpp_17/protobuf) by extension 'python_setup_py'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/cpp_17/src) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/cpp_17/src) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/cpp_17/src) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/cpp_17/src) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/cpp_17/src) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/cpp_17/src) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/cpp_17/src) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/cpp_17/src) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/cpp_17/src) by extension 'ros'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/cpp_17/src) by extensions ['cmake', 'python']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/cpp_17/src) by extension 'cmake'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/cpp_17/src) by extension 'python'
+[0.188s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navtech/src/cpp_17/src' with type 'cmake' and name 'IASDK'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_camera) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_camera) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_camera) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_camera) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_camera) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_camera) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_camera) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_camera) by extension 'ros'
+[0.190s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navtech/src/nav_camera' with type 'ros.ament_cmake' and name 'nav_camera'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_launch) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_launch) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_launch) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_launch) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_launch) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_launch) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_launch) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_launch) by extension 'ros'
+[0.191s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navtech/src/nav_launch' with type 'ros.ament_cmake' and name 'nav_launch'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_messages) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_messages) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_messages) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_messages) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_messages) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_messages) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_messages) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_messages) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_messages) by extension 'ros'
+[0.191s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navtech/src/nav_messages' with type 'ros.ament_cmake' and name 'nav_messages'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_radar) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_radar) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_radar) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_radar) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_radar) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_radar) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_radar) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_radar) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_radar) by extension 'ros'
+[0.192s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navtech/src/nav_radar' with type 'ros.ament_cmake' and name 'nav_radar'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_rviz) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_rviz) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_rviz) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_rviz) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_rviz) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_rviz) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_rviz) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_rviz) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_rviz) by extension 'ros'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_rviz) by extensions ['cmake', 'python']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_rviz) by extension 'cmake'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_rviz) by extension 'python'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_rviz) by extensions ['python_setup_py']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/navtech/src/nav_rviz) by extension 'python_setup_py'
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.211s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/ros2/ros2_ws/install
+[0.211s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/ros2/Downloads/final-ai/install
+[0.212s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 48 installed packages in /home/ros2/Downloads/ros2cs/install
+[0.213s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 285 installed packages in /opt/ros/humble
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'IASDK' build argument 'cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'IASDK' build argument 'cmake_target' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'IASDK' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'IASDK' build argument 'cmake_clean_cache' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'IASDK' build argument 'cmake_clean_first' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'IASDK' build argument 'cmake_force_configure' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'IASDK' build argument 'ament_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'IASDK' build argument 'catkin_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'IASDK' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.234s] DEBUG:colcon.colcon_core.verb:Building package 'IASDK' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2/tower_ws/build/IASDK', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2/tower_ws/install/IASDK', 'merge_install': False, 'path': '/home/ros2/tower_ws/src/navtech/src/cpp_17/src', 'symlink_install': False, 'test_result_base': None}
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'nav_messages' build argument 'cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'nav_messages' build argument 'cmake_target' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'nav_messages' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'nav_messages' build argument 'cmake_clean_cache' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'nav_messages' build argument 'cmake_clean_first' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'nav_messages' build argument 'cmake_force_configure' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'nav_messages' build argument 'ament_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'nav_messages' build argument 'catkin_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'nav_messages' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.234s] DEBUG:colcon.colcon_core.verb:Building package 'nav_messages' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2/tower_ws/build/nav_messages', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2/tower_ws/install/nav_messages', 'merge_install': False, 'path': '/home/ros2/tower_ws/src/navtech/src/nav_messages', 'symlink_install': False, 'test_result_base': None}
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'nav_camera' build argument 'cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'nav_camera' build argument 'cmake_target' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'nav_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'nav_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'nav_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'nav_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'nav_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'nav_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'nav_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.234s] DEBUG:colcon.colcon_core.verb:Building package 'nav_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2/tower_ws/build/nav_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2/tower_ws/install/nav_camera', 'merge_install': False, 'path': '/home/ros2/tower_ws/src/navtech/src/nav_camera', 'symlink_install': False, 'test_result_base': None}
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'nav_radar' build argument 'cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'nav_radar' build argument 'cmake_target' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'nav_radar' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'nav_radar' build argument 'cmake_clean_cache' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'nav_radar' build argument 'cmake_clean_first' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'nav_radar' build argument 'cmake_force_configure' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'nav_radar' build argument 'ament_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'nav_radar' build argument 'catkin_cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'nav_radar' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.235s] DEBUG:colcon.colcon_core.verb:Building package 'nav_radar' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2/tower_ws/build/nav_radar', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2/tower_ws/install/nav_radar', 'merge_install': False, 'path': '/home/ros2/tower_ws/src/navtech/src/nav_radar', 'symlink_install': False, 'test_result_base': None}
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'nav_launch' build argument 'cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'nav_launch' build argument 'cmake_target' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'nav_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'nav_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'nav_launch' build argument 'cmake_clean_first' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'nav_launch' build argument 'cmake_force_configure' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'nav_launch' build argument 'ament_cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'nav_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'nav_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.235s] DEBUG:colcon.colcon_core.verb:Building package 'nav_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2/tower_ws/build/nav_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2/tower_ws/install/nav_launch', 'merge_install': False, 'path': '/home/ros2/tower_ws/src/navtech/src/nav_launch', 'symlink_install': False, 'test_result_base': None}
+[0.235s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.235s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.235s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros2/tower_ws/src/navtech/src/nav_messages' with build type 'ament_cmake'
+[0.236s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros2/tower_ws/src/navtech/src/nav_messages'
+[0.237s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.237s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.237s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.240s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros2/tower_ws/src/navtech/src/cpp_17/src'
+[0.240s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.240s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/tower_ws/build/nav_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble /usr/bin/cmake --build /home/ros2/tower_ws/build/nav_messages -- -j24 -l24
+[0.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/tower_ws/build/IASDK': /usr/bin/cmake /home/ros2/tower_ws/src/navtech/src/cpp_17/src -DCMAKE_INSTALL_PREFIX=/home/ros2/tower_ws/install/IASDK
+[0.295s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/tower_ws/build/IASDK' returned '0': /usr/bin/cmake /home/ros2/tower_ws/src/navtech/src/cpp_17/src -DCMAKE_INSTALL_PREFIX=/home/ros2/tower_ws/install/IASDK
+[0.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/tower_ws/build/IASDK': /usr/bin/cmake --build /home/ros2/tower_ws/build/IASDK -- -j24 -l24
+[4.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/tower_ws/build/nav_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble /usr/bin/cmake --build /home/ros2/tower_ws/build/nav_messages -- -j24 -l24
+[4.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/tower_ws/build/nav_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble /usr/bin/cmake --install /home/ros2/tower_ws/build/nav_messages
+[4.663s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav_messages)
+[4.664s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/tower_ws/build/nav_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble /usr/bin/cmake --install /home/ros2/tower_ws/build/nav_messages
+[4.670s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_messages' for CMake module files
+[4.671s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_messages' for CMake config files
+[4.671s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav_messages', 'cmake_prefix_path')
+[4.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/tower_ws/install/nav_messages/share/nav_messages/hook/cmake_prefix_path.ps1'
+[4.672s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/tower_ws/install/nav_messages/share/nav_messages/hook/cmake_prefix_path.dsv'
+[4.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/tower_ws/install/nav_messages/share/nav_messages/hook/cmake_prefix_path.sh'
+[4.674s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_messages/lib'
+[4.674s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav_messages', 'ld_library_path_lib')
+[4.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/tower_ws/install/nav_messages/share/nav_messages/hook/ld_library_path_lib.ps1'
+[4.675s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/tower_ws/install/nav_messages/share/nav_messages/hook/ld_library_path_lib.dsv'
+[4.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/tower_ws/install/nav_messages/share/nav_messages/hook/ld_library_path_lib.sh'
+[4.675s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_messages/bin'
+[4.675s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_messages/lib/pkgconfig/nav_messages.pc'
+[4.676s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_messages/lib/python3.10/site-packages'
+[4.676s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_messages/bin'
+[4.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/tower_ws/install/nav_messages/share/nav_messages/package.ps1'
+[4.678s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/tower_ws/install/nav_messages/share/nav_messages/package.dsv'
+[4.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/tower_ws/install/nav_messages/share/nav_messages/package.sh'
+[4.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/tower_ws/install/nav_messages/share/nav_messages/package.bash'
+[4.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/tower_ws/install/nav_messages/share/nav_messages/package.zsh'
+[4.681s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/tower_ws/install/nav_messages/share/colcon-core/packages/nav_messages)
+[4.682s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav_messages)
+[4.682s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_messages' for CMake module files
+[4.682s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_messages' for CMake config files
+[4.683s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav_messages', 'cmake_prefix_path')
+[4.683s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/tower_ws/install/nav_messages/share/nav_messages/hook/cmake_prefix_path.ps1'
+[4.683s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/tower_ws/install/nav_messages/share/nav_messages/hook/cmake_prefix_path.dsv'
+[4.683s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/tower_ws/install/nav_messages/share/nav_messages/hook/cmake_prefix_path.sh'
+[4.684s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_messages/lib'
+[4.684s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav_messages', 'ld_library_path_lib')
+[4.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/tower_ws/install/nav_messages/share/nav_messages/hook/ld_library_path_lib.ps1'
+[4.684s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/tower_ws/install/nav_messages/share/nav_messages/hook/ld_library_path_lib.dsv'
+[4.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/tower_ws/install/nav_messages/share/nav_messages/hook/ld_library_path_lib.sh'
+[4.685s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_messages/bin'
+[4.685s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_messages/lib/pkgconfig/nav_messages.pc'
+[4.685s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_messages/lib/python3.10/site-packages'
+[4.685s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_messages/bin'
+[4.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/tower_ws/install/nav_messages/share/nav_messages/package.ps1'
+[4.686s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/tower_ws/install/nav_messages/share/nav_messages/package.dsv'
+[4.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/tower_ws/install/nav_messages/share/nav_messages/package.sh'
+[4.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/tower_ws/install/nav_messages/share/nav_messages/package.bash'
+[4.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/tower_ws/install/nav_messages/share/nav_messages/package.zsh'
+[4.687s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/tower_ws/install/nav_messages/share/colcon-core/packages/nav_messages)
+[4.687s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros2/tower_ws/src/navtech/src/nav_camera' with build type 'ament_cmake'
+[4.687s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros2/tower_ws/src/navtech/src/nav_camera'
+[4.687s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.687s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.690s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros2/tower_ws/src/navtech/src/nav_radar' with build type 'ament_cmake'
+[4.691s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros2/tower_ws/src/navtech/src/nav_radar'
+[4.691s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.691s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.696s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/tower_ws/build/nav_camera': AMENT_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:/home/ros2/ros2_ws/install/zed_ros2:/home/ros2/ros2_ws/install/zed_wrapper:/home/ros2/ros2_ws/install/zed_components:/home/ros2/Downloads/final-ai/install/detectionmessage:/home/ros2/Downloads/ros2cs/install:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/tower_ws/install/nav_messages/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/tower_ws/install/nav_messages/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ros2/tower_ws/src/navtech/src/nav_camera -DCMAKE_INSTALL_PREFIX=/home/ros2/tower_ws/install/nav_camera
+[4.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/tower_ws/build/nav_radar': AMENT_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:/home/ros2/ros2_ws/install/zed_ros2:/home/ros2/ros2_ws/install/zed_wrapper:/home/ros2/ros2_ws/install/zed_components:/home/ros2/Downloads/final-ai/install/detectionmessage:/home/ros2/Downloads/ros2cs/install:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/tower_ws/install/nav_messages/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/tower_ws/install/nav_messages/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ros2/tower_ws/src/navtech/src/nav_radar -DCMAKE_INSTALL_PREFIX=/home/ros2/tower_ws/install/nav_radar
+[5.754s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/tower_ws/build/nav_camera' returned '0': AMENT_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:/home/ros2/ros2_ws/install/zed_ros2:/home/ros2/ros2_ws/install/zed_wrapper:/home/ros2/ros2_ws/install/zed_components:/home/ros2/Downloads/final-ai/install/detectionmessage:/home/ros2/Downloads/ros2cs/install:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/tower_ws/install/nav_messages/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/tower_ws/install/nav_messages/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ros2/tower_ws/src/navtech/src/nav_camera -DCMAKE_INSTALL_PREFIX=/home/ros2/tower_ws/install/nav_camera
+[5.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/tower_ws/build/nav_camera': AMENT_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:/home/ros2/ros2_ws/install/zed_ros2:/home/ros2/ros2_ws/install/zed_wrapper:/home/ros2/ros2_ws/install/zed_components:/home/ros2/Downloads/final-ai/install/detectionmessage:/home/ros2/Downloads/ros2cs/install:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/tower_ws/install/nav_messages/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/tower_ws/install/nav_messages/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/tower_ws/build/nav_camera -- -j24 -l24
+[5.928s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/tower_ws/build/IASDK' returned '0': /usr/bin/cmake --build /home/ros2/tower_ws/build/IASDK -- -j24 -l24
+[5.929s] WARNING:colcon.colcon_cmake.task.cmake.build:Could not run installation step for package 'IASDK' because it has no 'install' target
+[5.929s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(IASDK)
+[5.929s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/IASDK' for CMake module files
+[5.929s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/IASDK' for CMake config files
+[5.929s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/IASDK/bin'
+[5.930s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/IASDK/lib/pkgconfig/IASDK.pc'
+[5.930s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/IASDK/lib/python3.10/site-packages'
+[5.930s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/IASDK/bin'
+[5.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/tower_ws/install/IASDK/share/IASDK/package.ps1'
+[5.931s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/tower_ws/install/IASDK/share/IASDK/package.dsv'
+[5.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/tower_ws/install/IASDK/share/IASDK/package.sh'
+[5.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/tower_ws/install/IASDK/share/IASDK/package.bash'
+[5.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/tower_ws/install/IASDK/share/IASDK/package.zsh'
+[5.931s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/tower_ws/install/IASDK/share/colcon-core/packages/IASDK)
+[5.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/tower_ws/build/nav_radar' returned '0': AMENT_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:/home/ros2/ros2_ws/install/zed_ros2:/home/ros2/ros2_ws/install/zed_wrapper:/home/ros2/ros2_ws/install/zed_components:/home/ros2/Downloads/final-ai/install/detectionmessage:/home/ros2/Downloads/ros2cs/install:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/tower_ws/install/nav_messages/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/tower_ws/install/nav_messages/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ros2/tower_ws/src/navtech/src/nav_radar -DCMAKE_INSTALL_PREFIX=/home/ros2/tower_ws/install/nav_radar
+[5.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/tower_ws/build/nav_radar': AMENT_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:/home/ros2/ros2_ws/install/zed_ros2:/home/ros2/ros2_ws/install/zed_wrapper:/home/ros2/ros2_ws/install/zed_components:/home/ros2/Downloads/final-ai/install/detectionmessage:/home/ros2/Downloads/ros2cs/install:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/tower_ws/install/nav_messages/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/tower_ws/install/nav_messages/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/tower_ws/build/nav_radar -- -j24 -l24
+[18.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/tower_ws/build/nav_camera' returned '0': AMENT_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:/home/ros2/ros2_ws/install/zed_ros2:/home/ros2/ros2_ws/install/zed_wrapper:/home/ros2/ros2_ws/install/zed_components:/home/ros2/Downloads/final-ai/install/detectionmessage:/home/ros2/Downloads/ros2cs/install:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/tower_ws/install/nav_messages/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/tower_ws/install/nav_messages/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/tower_ws/build/nav_camera -- -j24 -l24
+[18.153s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/tower_ws/build/nav_camera': AMENT_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:/home/ros2/ros2_ws/install/zed_ros2:/home/ros2/ros2_ws/install/zed_wrapper:/home/ros2/ros2_ws/install/zed_components:/home/ros2/Downloads/final-ai/install/detectionmessage:/home/ros2/Downloads/ros2cs/install:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/tower_ws/install/nav_messages/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/tower_ws/install/nav_messages/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/tower_ws/build/nav_camera
+[18.176s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav_camera)
+[18.176s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_camera' for CMake module files
+[18.177s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/tower_ws/build/nav_camera' returned '0': AMENT_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:/home/ros2/ros2_ws/install/zed_ros2:/home/ros2/ros2_ws/install/zed_wrapper:/home/ros2/ros2_ws/install/zed_components:/home/ros2/Downloads/final-ai/install/detectionmessage:/home/ros2/Downloads/ros2cs/install:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/tower_ws/install/nav_messages/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/tower_ws/install/nav_messages/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/tower_ws/build/nav_camera
+[18.177s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_camera' for CMake config files
+[18.177s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav_camera', 'cmake_prefix_path')
+[18.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/tower_ws/install/nav_camera/share/nav_camera/hook/cmake_prefix_path.ps1'
+[18.178s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/tower_ws/install/nav_camera/share/nav_camera/hook/cmake_prefix_path.dsv'
+[18.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/tower_ws/install/nav_camera/share/nav_camera/hook/cmake_prefix_path.sh'
+[18.179s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_camera/lib'
+[18.179s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_camera/bin'
+[18.179s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_camera/lib/pkgconfig/nav_camera.pc'
+[18.179s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_camera/lib/python3.10/site-packages'
+[18.180s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_camera/bin'
+[18.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/tower_ws/install/nav_camera/share/nav_camera/package.ps1'
+[18.181s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/tower_ws/install/nav_camera/share/nav_camera/package.dsv'
+[18.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/tower_ws/install/nav_camera/share/nav_camera/package.sh'
+[18.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/tower_ws/install/nav_camera/share/nav_camera/package.bash'
+[18.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/tower_ws/install/nav_camera/share/nav_camera/package.zsh'
+[18.183s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/tower_ws/install/nav_camera/share/colcon-core/packages/nav_camera)
+[18.183s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav_camera)
+[18.184s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_camera' for CMake module files
+[18.184s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_camera' for CMake config files
+[18.184s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav_camera', 'cmake_prefix_path')
+[18.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/tower_ws/install/nav_camera/share/nav_camera/hook/cmake_prefix_path.ps1'
+[18.185s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/tower_ws/install/nav_camera/share/nav_camera/hook/cmake_prefix_path.dsv'
+[18.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/tower_ws/install/nav_camera/share/nav_camera/hook/cmake_prefix_path.sh'
+[18.186s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_camera/lib'
+[18.186s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_camera/bin'
+[18.186s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_camera/lib/pkgconfig/nav_camera.pc'
+[18.187s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_camera/lib/python3.10/site-packages'
+[18.187s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_camera/bin'
+[18.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/tower_ws/install/nav_camera/share/nav_camera/package.ps1'
+[18.188s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/tower_ws/install/nav_camera/share/nav_camera/package.dsv'
+[18.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/tower_ws/install/nav_camera/share/nav_camera/package.sh'
+[18.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/tower_ws/install/nav_camera/share/nav_camera/package.bash'
+[18.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/tower_ws/install/nav_camera/share/nav_camera/package.zsh'
+[18.190s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/tower_ws/install/nav_camera/share/colcon-core/packages/nav_camera)
+[26.481s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/tower_ws/build/nav_radar' returned '0': AMENT_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:/home/ros2/ros2_ws/install/zed_ros2:/home/ros2/ros2_ws/install/zed_wrapper:/home/ros2/ros2_ws/install/zed_components:/home/ros2/Downloads/final-ai/install/detectionmessage:/home/ros2/Downloads/ros2cs/install:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/tower_ws/install/nav_messages/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/tower_ws/install/nav_messages/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/tower_ws/build/nav_radar -- -j24 -l24
+[26.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/tower_ws/build/nav_radar': AMENT_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:/home/ros2/ros2_ws/install/zed_ros2:/home/ros2/ros2_ws/install/zed_wrapper:/home/ros2/ros2_ws/install/zed_components:/home/ros2/Downloads/final-ai/install/detectionmessage:/home/ros2/Downloads/ros2cs/install:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/tower_ws/install/nav_messages/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/tower_ws/install/nav_messages/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/tower_ws/build/nav_radar
+[26.519s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav_radar)
+[26.519s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/tower_ws/build/nav_radar' returned '0': AMENT_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/tower_ws/install/nav_messages:/home/ros2/ros2_ws/install/zed_ros2:/home/ros2/ros2_ws/install/zed_wrapper:/home/ros2/ros2_ws/install/zed_components:/home/ros2/Downloads/final-ai/install/detectionmessage:/home/ros2/Downloads/ros2cs/install:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/tower_ws/install/nav_messages/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/tower_ws/install/nav_messages/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/tower_ws/build/nav_radar
+[26.519s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_radar' for CMake module files
+[26.519s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_radar' for CMake config files
+[26.519s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav_radar', 'cmake_prefix_path')
+[26.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/tower_ws/install/nav_radar/share/nav_radar/hook/cmake_prefix_path.ps1'
+[26.520s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/tower_ws/install/nav_radar/share/nav_radar/hook/cmake_prefix_path.dsv'
+[26.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/tower_ws/install/nav_radar/share/nav_radar/hook/cmake_prefix_path.sh'
+[26.520s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_radar/lib'
+[26.520s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_radar/bin'
+[26.521s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_radar/lib/pkgconfig/nav_radar.pc'
+[26.521s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_radar/lib/python3.10/site-packages'
+[26.521s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_radar/bin'
+[26.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/tower_ws/install/nav_radar/share/nav_radar/package.ps1'
+[26.521s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/tower_ws/install/nav_radar/share/nav_radar/package.dsv'
+[26.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/tower_ws/install/nav_radar/share/nav_radar/package.sh'
+[26.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/tower_ws/install/nav_radar/share/nav_radar/package.bash'
+[26.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/tower_ws/install/nav_radar/share/nav_radar/package.zsh'
+[26.522s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/tower_ws/install/nav_radar/share/colcon-core/packages/nav_radar)
+[26.522s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav_radar)
+[26.523s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_radar' for CMake module files
+[26.523s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_radar' for CMake config files
+[26.523s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav_radar', 'cmake_prefix_path')
+[26.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/tower_ws/install/nav_radar/share/nav_radar/hook/cmake_prefix_path.ps1'
+[26.523s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/tower_ws/install/nav_radar/share/nav_radar/hook/cmake_prefix_path.dsv'
+[26.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/tower_ws/install/nav_radar/share/nav_radar/hook/cmake_prefix_path.sh'
+[26.524s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_radar/lib'
+[26.524s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_radar/bin'
+[26.524s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_radar/lib/pkgconfig/nav_radar.pc'
+[26.524s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_radar/lib/python3.10/site-packages'
+[26.524s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_radar/bin'
+[26.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/tower_ws/install/nav_radar/share/nav_radar/package.ps1'
+[26.525s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/tower_ws/install/nav_radar/share/nav_radar/package.dsv'
+[26.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/tower_ws/install/nav_radar/share/nav_radar/package.sh'
+[26.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/tower_ws/install/nav_radar/share/nav_radar/package.bash'
+[26.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/tower_ws/install/nav_radar/share/nav_radar/package.zsh'
+[26.531s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/tower_ws/install/nav_radar/share/colcon-core/packages/nav_radar)
+[26.531s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros2/tower_ws/src/navtech/src/nav_launch' with build type 'ament_cmake'
+[26.532s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros2/tower_ws/src/navtech/src/nav_launch'
+[26.532s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[26.532s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[26.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/tower_ws/build/nav_launch': AMENT_PREFIX_PATH=/home/ros2/tower_ws/install/nav_radar:/home/ros2/tower_ws/install/nav_camera:/home/ros2/tower_ws/install/nav_messages:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/tower_ws/install/nav_radar:/home/ros2/tower_ws/install/nav_camera:/home/ros2/tower_ws/install/nav_messages:/home/ros2/ros2_ws/install/zed_ros2:/home/ros2/ros2_ws/install/zed_wrapper:/home/ros2/ros2_ws/install/zed_components:/home/ros2/Downloads/final-ai/install/detectionmessage:/home/ros2/Downloads/ros2cs/install:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/tower_ws/install/nav_messages/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/tower_ws/install/nav_messages/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ros2/tower_ws/src/navtech/src/nav_launch -DCMAKE_INSTALL_PREFIX=/home/ros2/tower_ws/install/nav_launch
+[27.027s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/tower_ws/build/nav_launch' returned '0': AMENT_PREFIX_PATH=/home/ros2/tower_ws/install/nav_radar:/home/ros2/tower_ws/install/nav_camera:/home/ros2/tower_ws/install/nav_messages:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/tower_ws/install/nav_radar:/home/ros2/tower_ws/install/nav_camera:/home/ros2/tower_ws/install/nav_messages:/home/ros2/ros2_ws/install/zed_ros2:/home/ros2/ros2_ws/install/zed_wrapper:/home/ros2/ros2_ws/install/zed_components:/home/ros2/Downloads/final-ai/install/detectionmessage:/home/ros2/Downloads/ros2cs/install:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/tower_ws/install/nav_messages/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/tower_ws/install/nav_messages/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ros2/tower_ws/src/navtech/src/nav_launch -DCMAKE_INSTALL_PREFIX=/home/ros2/tower_ws/install/nav_launch
+[27.028s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/tower_ws/build/nav_launch': AMENT_PREFIX_PATH=/home/ros2/tower_ws/install/nav_radar:/home/ros2/tower_ws/install/nav_camera:/home/ros2/tower_ws/install/nav_messages:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/tower_ws/install/nav_radar:/home/ros2/tower_ws/install/nav_camera:/home/ros2/tower_ws/install/nav_messages:/home/ros2/ros2_ws/install/zed_ros2:/home/ros2/ros2_ws/install/zed_wrapper:/home/ros2/ros2_ws/install/zed_components:/home/ros2/Downloads/final-ai/install/detectionmessage:/home/ros2/Downloads/ros2cs/install:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/tower_ws/install/nav_messages/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/tower_ws/install/nav_messages/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/tower_ws/build/nav_launch -- -j24 -l24
+[27.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/tower_ws/build/nav_launch' returned '0': AMENT_PREFIX_PATH=/home/ros2/tower_ws/install/nav_radar:/home/ros2/tower_ws/install/nav_camera:/home/ros2/tower_ws/install/nav_messages:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/tower_ws/install/nav_radar:/home/ros2/tower_ws/install/nav_camera:/home/ros2/tower_ws/install/nav_messages:/home/ros2/ros2_ws/install/zed_ros2:/home/ros2/ros2_ws/install/zed_wrapper:/home/ros2/ros2_ws/install/zed_components:/home/ros2/Downloads/final-ai/install/detectionmessage:/home/ros2/Downloads/ros2cs/install:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/tower_ws/install/nav_messages/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/tower_ws/install/nav_messages/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/tower_ws/build/nav_launch -- -j24 -l24
+[27.055s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/tower_ws/build/nav_launch': AMENT_PREFIX_PATH=/home/ros2/tower_ws/install/nav_radar:/home/ros2/tower_ws/install/nav_camera:/home/ros2/tower_ws/install/nav_messages:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/tower_ws/install/nav_radar:/home/ros2/tower_ws/install/nav_camera:/home/ros2/tower_ws/install/nav_messages:/home/ros2/ros2_ws/install/zed_ros2:/home/ros2/ros2_ws/install/zed_wrapper:/home/ros2/ros2_ws/install/zed_components:/home/ros2/Downloads/final-ai/install/detectionmessage:/home/ros2/Downloads/ros2cs/install:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/tower_ws/install/nav_messages/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/tower_ws/install/nav_messages/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/tower_ws/build/nav_launch
+[27.064s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav_launch)
+[27.065s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/tower_ws/build/nav_launch' returned '0': AMENT_PREFIX_PATH=/home/ros2/tower_ws/install/nav_radar:/home/ros2/tower_ws/install/nav_camera:/home/ros2/tower_ws/install/nav_messages:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/tower_ws/install/nav_radar:/home/ros2/tower_ws/install/nav_camera:/home/ros2/tower_ws/install/nav_messages:/home/ros2/ros2_ws/install/zed_ros2:/home/ros2/ros2_ws/install/zed_wrapper:/home/ros2/ros2_ws/install/zed_components:/home/ros2/Downloads/final-ai/install/detectionmessage:/home/ros2/Downloads/ros2cs/install:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/tower_ws/install/nav_messages/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/tower_ws/install/nav_messages/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/tower_ws/build/nav_launch
+[27.065s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_launch' for CMake module files
+[27.065s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_launch' for CMake config files
+[27.065s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav_launch', 'cmake_prefix_path')
+[27.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/tower_ws/install/nav_launch/share/nav_launch/hook/cmake_prefix_path.ps1'
+[27.066s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/tower_ws/install/nav_launch/share/nav_launch/hook/cmake_prefix_path.dsv'
+[27.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/tower_ws/install/nav_launch/share/nav_launch/hook/cmake_prefix_path.sh'
+[27.067s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_launch/bin'
+[27.067s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_launch/lib/pkgconfig/nav_launch.pc'
+[27.067s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_launch/lib/python3.10/site-packages'
+[27.067s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_launch/bin'
+[27.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/tower_ws/install/nav_launch/share/nav_launch/package.ps1'
+[27.068s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/tower_ws/install/nav_launch/share/nav_launch/package.dsv'
+[27.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/tower_ws/install/nav_launch/share/nav_launch/package.sh'
+[27.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/tower_ws/install/nav_launch/share/nav_launch/package.bash'
+[27.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/tower_ws/install/nav_launch/share/nav_launch/package.zsh'
+[27.069s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/tower_ws/install/nav_launch/share/colcon-core/packages/nav_launch)
+[27.069s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav_launch)
+[27.069s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_launch' for CMake module files
+[27.069s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_launch' for CMake config files
+[27.069s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav_launch', 'cmake_prefix_path')
+[27.069s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/tower_ws/install/nav_launch/share/nav_launch/hook/cmake_prefix_path.ps1'
+[27.070s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/tower_ws/install/nav_launch/share/nav_launch/hook/cmake_prefix_path.dsv'
+[27.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/tower_ws/install/nav_launch/share/nav_launch/hook/cmake_prefix_path.sh'
+[27.070s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_launch/bin'
+[27.070s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_launch/lib/pkgconfig/nav_launch.pc'
+[27.070s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_launch/lib/python3.10/site-packages'
+[27.071s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/tower_ws/install/nav_launch/bin'
+[27.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/tower_ws/install/nav_launch/share/nav_launch/package.ps1'
+[27.071s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/tower_ws/install/nav_launch/share/nav_launch/package.dsv'
+[27.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/tower_ws/install/nav_launch/share/nav_launch/package.sh'
+[27.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/tower_ws/install/nav_launch/share/nav_launch/package.bash'
+[27.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/tower_ws/install/nav_launch/share/nav_launch/package.zsh'
+[27.072s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/tower_ws/install/nav_launch/share/colcon-core/packages/nav_launch)
+[27.072s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[27.072s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[27.072s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[27.072s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[27.075s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[27.075s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[27.075s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[27.082s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[27.082s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros2/tower_ws/install/local_setup.ps1'
+[27.083s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ros2/tower_ws/install/_local_setup_util_ps1.py'
+[27.084s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros2/tower_ws/install/setup.ps1'
+[27.086s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros2/tower_ws/install/local_setup.sh'
+[27.086s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ros2/tower_ws/install/_local_setup_util_sh.py'
+[27.087s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros2/tower_ws/install/setup.sh'
+[27.088s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros2/tower_ws/install/local_setup.bash'
+[27.088s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros2/tower_ws/install/setup.bash'
+[27.089s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros2/tower_ws/install/local_setup.zsh'
+[27.089s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros2/tower_ws/install/setup.zsh'

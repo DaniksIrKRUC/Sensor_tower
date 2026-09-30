@@ -1,0 +1,26 @@
+[0.008s] Invoking command in '/home/ros2/tower_ws/build/IASDK': /usr/bin/cmake --build /home/ros2/tower_ws/build/IASDK -- -j24 -l24
+[0.036s] [35m[1mConsolidate compiler generated dependencies of target utility[0m
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target protobuf[0m
+[0.046s] [ 13%] Built target utility
+[0.050s] [ 37%] Built target protobuf
+[0.060s] [35m[1mConsolidate compiler generated dependencies of target navigation[0m
+[0.072s] [ 41%] Built target navigation
+[0.084s] [35m[1mConsolidate compiler generated dependencies of target networking[0m
+[0.103s] [ 77%] Built target networking
+[0.110s] [35m[1mConsolidate compiler generated dependencies of target cat240_client[0m
+[0.110s] [35m[1mConsolidate compiler generated dependencies of target navigation_client[0m
+[0.110s] [35m[1mConsolidate compiler generated dependencies of target colossus_relay[0m
+[0.110s] [35m[1mConsolidate compiler generated dependencies of target colossus_udp_client[0m
+[0.112s] [35m[1mConsolidate compiler generated dependencies of target colossus_client[0m
+[0.112s] [35m[1mConsolidate compiler generated dependencies of target nmea_client[0m
+[0.112s] [35m[1mConsolidate compiler generated dependencies of target connection_tester[0m
+[0.112s] [35m[1mConsolidate compiler generated dependencies of target nmea_server[0m
+[0.118s] [ 87%] Built target colossus_relay
+[0.118s] [ 87%] Built target colossus_udp_client
+[0.118s] [ 87%] Built target navigation_client
+[0.118s] [ 88%] Built target cat240_client
+[0.122s] [ 91%] Built target connection_tester
+[0.123s] [ 94%] Built target nmea_server
+[0.123s] [ 97%] Built target colossus_client
+[0.124s] [100%] Built target nmea_client
+[0.131s] Invoked command in '/home/ros2/tower_ws/build/IASDK' returned '0': /usr/bin/cmake --build /home/ros2/tower_ws/build/IASDK -- -j24 -l24

@@ -1,0 +1,69 @@
+[35m[1mConsolidate compiler generated dependencies of target utility[0m
+[35m[1mConsolidate compiler generated dependencies of target protobuf[0m
+[ 10%] Built target utility
+[ 27%] Built target protobuf
+[35m[1mConsolidate compiler generated dependencies of target navigation[0m
+[ 30%] Built target navigation
+[35m[1mConsolidate compiler generated dependencies of target networking[0m
+[ 55%] Built target networking
+[35m[1mConsolidate compiler generated dependencies of target colossus_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target laser_scan_subscriber_to_video[0m
+[35m[1mConsolidate compiler generated dependencies of target colossus_subscriber[0m
+[35m[1mConsolidate compiler generated dependencies of target laser_scan_subscriber[0m
+[35m[1mConsolidate compiler generated dependencies of target laser_scan_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target colossus_subscriber_to_video[0m
+[35m[1mConsolidate compiler generated dependencies of target point_cloud_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target navigation_mode_point_cloud_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target colossus_and_camera_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target native_point_cloud_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target colossus_subscriber_point_cloud_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target cfar_point_cloud_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target b_scan_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target colossus_and_camera_subscriber_to_video[0m
+[35m[1mConsolidate compiler generated dependencies of target colossus_subscriber_laser_scan_publisher[0m
+[ 61%] Built target laser_scan_subscriber_to_video
+[ 61%] Built target colossus_subscriber
+[ 64%] Built target colossus_publisher
+[ 67%] Built target colossus_subscriber_to_video
+[ 70%] Built target laser_scan_publisher
+[ 73%] Built target laser_scan_subscriber
+[ 76%] Built target colossus_subscriber_point_cloud_publisher
+[ 86%] Built target navigation_mode_point_cloud_publisher
+[ 86%] Built target cfar_point_cloud_publisher
+[ 86%] Built target point_cloud_publisher
+[ 91%] Built target native_point_cloud_publisher
+[ 91%] Built target colossus_and_camera_subscriber_to_video
+[ 95%] Built target colossus_and_camera_publisher
+[ 98%] Built target colossus_subscriber_laser_scan_publisher
+[100%] Built target b_scan_publisher
+-- Install configuration: ""
+-- Up-to-date: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/colossus_publisher
+-- Up-to-date: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/colossus_subscriber
+-- Up-to-date: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/colossus_subscriber_to_video
+-- Up-to-date: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/laser_scan_publisher
+-- Up-to-date: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/laser_scan_subscriber
+-- Up-to-date: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/laser_scan_subscriber_to_video
+-- Up-to-date: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/point_cloud_publisher
+-- Up-to-date: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/navigation_mode_point_cloud_publisher
+-- Up-to-date: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/b_scan_publisher
+-- Up-to-date: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/colossus_and_camera_publisher
+-- Up-to-date: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/colossus_and_camera_subscriber_to_video
+-- Up-to-date: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/colossus_subscriber_laser_scan_publisher
+-- Up-to-date: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/colossus_subscriber_point_cloud_publisher
+-- Up-to-date: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/cfar_point_cloud_publisher
+-- Up-to-date: /home/ros2/tower_ws/install/nav_radar/lib/nav_radar/native_point_cloud_publisher
+-- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/ament_index/resource_index/package_run_dependencies/nav_radar
+-- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/ament_index/resource_index/parent_prefix_path/nav_radar
+-- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/nav_radar/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/nav_radar/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/nav_radar/environment/path.sh
+-- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/nav_radar/environment/path.dsv
+-- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/nav_radar/local_setup.bash
+-- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/nav_radar/local_setup.sh
+-- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/nav_radar/local_setup.zsh
+-- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/nav_radar/local_setup.dsv
+-- Installing: /home/ros2/tower_ws/install/nav_radar/share/nav_radar/package.dsv
+-- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/ament_index/resource_index/packages/nav_radar
+-- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/nav_radar/cmake/nav_radarConfig.cmake
+-- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/nav_radar/cmake/nav_radarConfig-version.cmake
+-- Up-to-date: /home/ros2/tower_ws/install/nav_radar/share/nav_radar/package.xml

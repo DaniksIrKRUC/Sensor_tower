@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from nav_messages/msg/CameraConfigurationMessage.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module nav_messages {
+  module msg {
+    @verbatim (language="comment", text=
+      "A ROS message to define camera configuration information")
+    struct CameraConfigurationMessage {
+      @verbatim (language="comment", text=
+        "add a header message to hold message timestamp")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Image height")
+      uint32 height;
+
+      @verbatim (language="comment", text=
+        "Image width")
+      uint32 width;
+
+      @verbatim (language="comment", text=
+        "Image number of color channels")
+      uint32 channels;
+
+      @verbatim (language="comment", text=
+        "Camera frames per second")
+      uint32 fps;
+    };
+  };
+};

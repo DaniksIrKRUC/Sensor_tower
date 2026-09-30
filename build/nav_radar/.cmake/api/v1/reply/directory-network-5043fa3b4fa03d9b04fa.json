@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "network",
+		"source" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network"
+	}
+}

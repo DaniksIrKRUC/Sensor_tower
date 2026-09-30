@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target utility[0m
+[35m[1mConsolidate compiler generated dependencies of target protobuf[0m
+[ 13%] Built target utility
+[ 37%] Built target protobuf
+[35m[1mConsolidate compiler generated dependencies of target navigation[0m
+[ 41%] Built target navigation
+[35m[1mConsolidate compiler generated dependencies of target networking[0m
+[ 77%] Built target networking
+[35m[1mConsolidate compiler generated dependencies of target cat240_client[0m
+[35m[1mConsolidate compiler generated dependencies of target navigation_client[0m
+[35m[1mConsolidate compiler generated dependencies of target colossus_relay[0m
+[35m[1mConsolidate compiler generated dependencies of target colossus_udp_client[0m
+[35m[1mConsolidate compiler generated dependencies of target colossus_client[0m
+[35m[1mConsolidate compiler generated dependencies of target nmea_client[0m
+[35m[1mConsolidate compiler generated dependencies of target connection_tester[0m
+[35m[1mConsolidate compiler generated dependencies of target nmea_server[0m
+[ 87%] Built target colossus_relay
+[ 87%] Built target colossus_udp_client
+[ 87%] Built target navigation_client
+[ 88%] Built target cat240_client
+[ 91%] Built target connection_tester
+[ 94%] Built target nmea_server
+[ 97%] Built target colossus_client
+[100%] Built target nmea_client

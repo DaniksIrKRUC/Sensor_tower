@@ -1,0 +1,2 @@
+Invoking command in '/home/ros2/tower_ws/build/IASDK': /usr/bin/cmake --build /home/ros2/tower_ws/build/IASDK -- -j24 -l24
+Invoked command in '/home/ros2/tower_ws/build/IASDK' returned '0': /usr/bin/cmake --build /home/ros2/tower_ws/build/IASDK -- -j24 -l24

@@ -1,0 +1,558 @@
+[0.018s] Invoking command in '/home/ros2/tower_ws/build/ouster_sensor_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble /usr/bin/cmake /home/ros2/tower_ws/src/ouster-ros/ouster-sensor-msgs -DCMAKE_INSTALL_PREFIX=/home/ros2/tower_ws/install/ouster_sensor_msgs
+[0.147s] -- The C compiler identification is GNU 11.4.0
+[0.284s] -- The CXX compiler identification is GNU 11.4.0
+[0.297s] -- Detecting C compiler ABI info
+[0.451s] -- Detecting C compiler ABI info - done
+[0.467s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.471s] -- Detecting C compile features
+[0.472s] -- Detecting C compile features - done
+[0.478s] -- Detecting CXX compiler ABI info
+[0.670s] -- Detecting CXX compiler ABI info - done
+[0.687s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.687s] -- Detecting CXX compile features
+[0.687s] -- Detecting CXX compile features - done
+[0.699s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.855s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.997s] -- Found std_msgs: 4.9.0 (/home/ros2/Downloads/ros2cs/install/share/std_msgs/cmake)
+[1.039s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.045s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.053s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.063s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.078s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.100s] -- Found rosidl_default_generators: 1.2.0 (/home/ros2/Downloads/ros2cs/install/share/rosidl_default_generators/cmake)
+[1.106s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.330s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.665s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.804s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.807s] -- Found ament_cmake_export_assemblies: 0.0.0 (/home/ros2/Downloads/ros2cs/install/share/ament_cmake_export_assemblies/cmake)
+[1.809s] -- Found dotnet_cmake_module: 0.0.0 (/home/ros2/Downloads/ros2cs/install/share/dotnet_cmake_module/cmake)
+[1.881s] -- Found DotNetCore: /usr/bin/dotnet  
+[1.881s] -- Found .NET Core: 6.0.136
+[1.881s] -- Using Framework: netstandard2.0
+[1.881s] -- Using Framework: netstandard2.0
+[1.881s] -- Using Runtime: linux-x64
+[1.883s] -- Found ros2cs_common: 2.0.0 (/home/ros2/Downloads/ros2cs/install/share/ros2cs_common/cmake)
+[1.997s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.019s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.059s] -- Generating C# code for ROS interfaces /home/ros2/tower_ws/build/ouster_sensor_msgs/rosidl_generator_cs/ouster_sensor_msgs/msg/packet_msg.cs;/home/ros2/tower_ws/build/ouster_sensor_msgs/rosidl_generator_cs/ouster_sensor_msgs/msg/telemetry.cs and /home/ros2/tower_ws/build/ouster_sensor_msgs/rosidl_generator_cs/ouster_sensor_msgs/srv/get_config.cs;/home/ros2/tower_ws/build/ouster_sensor_msgs/rosidl_generator_cs/ouster_sensor_msgs/srv/set_config.cs;/home/ros2/tower_ws/build/ouster_sensor_msgs/rosidl_generator_cs/ouster_sensor_msgs/srv/get_metadata.cs
+[2.059s] -- Adding custom target
+[2.059s] [0mLink libraries: ouster_sensor_msgs__rosidl_typesupport_c[0m
+[2.062s] [0mLink libraries: ouster_sensor_msgs__rosidl_typesupport_introspection_c[0m
+[2.064s] [0mLink libraries: ouster_sensor_msgs__rosidl_typesupport_fastrtps_c[0m
+[2.067s] [0mLink libraries: ouster_sensor_msgs__rosidl_typesupport_c[0m
+[2.069s] [0mLink libraries: ouster_sensor_msgs__rosidl_typesupport_introspection_c[0m
+[2.072s] [0mLink libraries: ouster_sensor_msgs__rosidl_typesupport_fastrtps_c[0m
+[2.074s] [0mLink libraries: ouster_sensor_msgs__rosidl_typesupport_c[0m
+[2.077s] [0mLink libraries: ouster_sensor_msgs__rosidl_typesupport_introspection_c[0m
+[2.079s] [0mLink libraries: ouster_sensor_msgs__rosidl_typesupport_fastrtps_c[0m
+[2.081s] [0mLink libraries: ouster_sensor_msgs__rosidl_typesupport_c[0m
+[2.084s] [0mLink libraries: ouster_sensor_msgs__rosidl_typesupport_introspection_c[0m
+[2.086s] [0mLink libraries: ouster_sensor_msgs__rosidl_typesupport_fastrtps_c[0m
+[2.089s] [0mLink libraries: ouster_sensor_msgs__rosidl_typesupport_c[0m
+[2.091s] [0mLink libraries: ouster_sensor_msgs__rosidl_typesupport_introspection_c[0m
+[2.094s] [0mLink libraries: ouster_sensor_msgs__rosidl_typesupport_fastrtps_c[0m
+[2.096s] [0mInstall targets[0m
+[2.114s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.117s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.137s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.137s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.137s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.138s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.164s] -- Found PythonExtra: .so  
+[2.320s] -- Configuring done
+[2.391s] -- Generating done
+[2.419s] -- Build files have been written to: /home/ros2/tower_ws/build/ouster_sensor_msgs
+[2.435s] Invoked command in '/home/ros2/tower_ws/build/ouster_sensor_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble /usr/bin/cmake /home/ros2/tower_ws/src/ouster-ros/ouster-sensor-msgs -DCMAKE_INSTALL_PREFIX=/home/ros2/tower_ws/install/ouster_sensor_msgs
+[2.436s] Invoking command in '/home/ros2/tower_ws/build/ouster_sensor_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble /usr/bin/cmake --build /home/ros2/tower_ws/build/ouster_sensor_msgs -- -j24 -l24
+[2.477s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.485s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.485s] [  1%] [34m[1mGenerating C# code for ROS interfaces[0m
+[2.486s] [  2%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[2.492s] [  2%] Built target ament_cmake_python_copy_ouster_sensor_msgs
+[2.791s] running egg_info
+[2.791s] creating ouster_sensor_msgs.egg-info
+[2.791s] writing ouster_sensor_msgs.egg-info/PKG-INFO
+[2.791s] writing dependency_links to ouster_sensor_msgs.egg-info/dependency_links.txt
+[2.791s] writing top-level names to ouster_sensor_msgs.egg-info/top_level.txt
+[2.791s] writing manifest file 'ouster_sensor_msgs.egg-info/SOURCES.txt'
+[2.794s] reading manifest file 'ouster_sensor_msgs.egg-info/SOURCES.txt'
+[2.794s] writing manifest file 'ouster_sensor_msgs.egg-info/SOURCES.txt'
+[2.840s] [  2%] Built target ament_cmake_python_build_ouster_sensor_msgs_egg
+[4.137s] [  2%] Built target ouster_sensor_msgs__rs
+[4.384s] [  2%] Built target ouster_sensor_msgs__cpp
+[4.396s] [  2%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.403s] [  3%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.406s] [  4%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.646s] [  5%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/ouster_sensor_msgs/msg/detail/packet_msg__functions.c.o[0m
+[4.649s] [  6%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/ouster_sensor_msgs/msg/detail/telemetry__functions.c.o[0m
+[4.652s] [  6%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/ouster_sensor_msgs/srv/detail/get_config__functions.c.o[0m
+[4.657s] [  7%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/ouster_sensor_msgs/srv/detail/get_metadata__functions.c.o[0m
+[4.657s] [  8%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/ouster_sensor_msgs/srv/detail/set_config__functions.c.o[0m
+[4.810s] [  8%] [32m[1mLinking C shared library libouster_sensor_msgs__rosidl_generator_c.so[0m
+[4.876s] [  8%] Built target ouster_sensor_msgs__rosidl_generator_c
+[4.898s] [  9%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.899s] [ 10%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.901s] [ 10%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.490s] [ 11%] [32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ouster_sensor_msgs/msg/detail/packet_msg__type_support.cpp.o[0m
+[5.502s] [ 12%] [32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ouster_sensor_msgs/msg/detail/telemetry__type_support.cpp.o[0m
+[5.504s] [ 12%] [32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ouster_sensor_msgs/srv/detail/get_config__type_support.cpp.o[0m
+[5.511s] [ 13%] [32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ouster_sensor_msgs/srv/detail/set_config__type_support.cpp.o[0m
+[5.517s] [ 14%] [32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ouster_sensor_msgs/srv/detail/get_metadata__type_support.cpp.o[0m
+[5.651s] [ 14%] [32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ouster_sensor_msgs/srv/get_metadata__type_support.cpp.o[0m
+[5.651s] [ 15%] [32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ouster_sensor_msgs/srv/set_config__type_support.cpp.o[0m
+[5.652s] [ 15%] [32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ouster_sensor_msgs/msg/telemetry__type_support.cpp.o[0m
+[5.654s] [ 16%] [32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ouster_sensor_msgs/msg/packet_msg__type_support.cpp.o[0m
+[5.656s] [ 17%] [32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ouster_sensor_msgs/srv/get_config__type_support.cpp.o[0m
+[6.120s] [ 18%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ouster_sensor_msgs/msg/detail/packet_msg__type_support.c.o[0m
+[6.131s] [ 19%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ouster_sensor_msgs/msg/detail/telemetry__type_support.c.o[0m
+[6.134s] [ 19%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ouster_sensor_msgs/srv/detail/get_config__type_support.c.o[0m
+[6.137s] [ 20%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ouster_sensor_msgs/srv/detail/set_config__type_support.c.o[0m
+[6.140s] [ 21%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ouster_sensor_msgs/srv/detail/get_metadata__type_support.c.o[0m
+[6.151s] [ 22%] [32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ouster_sensor_msgs/msg/detail/dds_fastrtps/telemetry__type_support.cpp.o[0m
+[6.151s] [ 22%] [32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ouster_sensor_msgs/msg/detail/dds_fastrtps/packet_msg__type_support.cpp.o[0m
+[6.165s] [ 23%] [32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ouster_sensor_msgs/srv/detail/dds_fastrtps/get_config__type_support.cpp.o[0m
+[6.165s] [ 24%] [32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ouster_sensor_msgs/srv/detail/dds_fastrtps/get_metadata__type_support.cpp.o[0m
+[6.165s] [ 24%] [32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ouster_sensor_msgs/srv/detail/dds_fastrtps/set_config__type_support.cpp.o[0m
+[6.251s] [ 24%] [32m[1mLinking C shared library libouster_sensor_msgs__rosidl_typesupport_introspection_c.so[0m
+[6.271s] [ 24%] Built target ouster_sensor_msgs__cs
+[6.315s] [ 25%] [34m[1m/usr/bin/cmake;-version;/usr/bin/dotnet restore ouster_sensor_msgs_assembly_dotnetcore.csproj;          /usr/bin/dotnet build ouster_sensor_msgs_assembly_dotnetcore.csproj -> /home/ros2/tower_ws/build/ouster_sensor_msgs/ouster_sensor_msgs_assembly[0m
+[6.317s] [ 25%] Built target ouster_sensor_msgs__rosidl_typesupport_introspection_c
+[6.346s] [ 26%] [32m[1mLinking CXX shared library libouster_sensor_msgs__rosidl_typesupport_cpp.so[0m
+[6.355s] cmake version 3.22.1
+[6.355s] 
+[6.355s] CMake suite maintained and supported by Kitware (kitware.com/cmake).
+[6.403s] [ 26%] Built target ouster_sensor_msgs__rosidl_typesupport_cpp
+[6.443s] [ 27%] [32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ouster_sensor_msgs/msg/packet_msg__type_support.cpp.o[0m
+[6.449s] [ 27%] [32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ouster_sensor_msgs/msg/telemetry__type_support.cpp.o[0m
+[6.449s] [ 28%] [32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ouster_sensor_msgs/srv/get_config__type_support.cpp.o[0m
+[6.450s] [ 28%] [32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ouster_sensor_msgs/srv/get_metadata__type_support.cpp.o[0m
+[6.452s] [ 29%] [32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ouster_sensor_msgs/srv/set_config__type_support.cpp.o[0m
+[6.485s] [ 29%] [32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ouster_sensor_msgs/msg/detail/packet_msg__type_support_c.cpp.o[0m
+[6.492s] [ 30%] [32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ouster_sensor_msgs/srv/detail/get_metadata__type_support_c.cpp.o[0m
+[6.495s] [ 30%] [32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ouster_sensor_msgs/srv/detail/set_config__type_support_c.cpp.o[0m
+[6.497s] [ 31%] [32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ouster_sensor_msgs/msg/detail/telemetry__type_support_c.cpp.o[0m
+[6.497s] [ 32%] [32mBuilding CXX object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ouster_sensor_msgs/srv/detail/get_config__type_support_c.cpp.o[0m
+[6.523s] [ 33%] [32m[1mLinking CXX shared library libouster_sensor_msgs__rosidl_typesupport_c.so[0m
+[6.552s] [ 33%] [32m[1mLinking CXX shared library libouster_sensor_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[6.618s] [ 33%] Built target ouster_sensor_msgs__rosidl_typesupport_c
+[6.666s] [ 34%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_packet_msg__rosidl_typesupport_c.dir/rosidl_generator_cs/ouster_sensor_msgs/msg/packet_msg_s.c.o[0m
+[6.668s] [?1h=[ 35%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_telemetry__rosidl_typesupport_c.dir/rosidl_generator_cs/ouster_sensor_msgs/msg/telemetry.ep.rosidl_typesupport_c.c.o[0m
+[6.669s] [ 34%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_packet_msg__rosidl_typesupport_c.dir/rosidl_generator_cs/ouster_sensor_msgs/msg/telemetry_s.c.o[0m
+[6.669s] [ 36%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_telemetry__rosidl_typesupport_c.dir/rosidl_generator_cs/ouster_sensor_msgs/msg/packet_msg_s.c.o[0m
+[6.673s] [ 37%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_packet_msg__rosidl_typesupport_c.dir/rosidl_generator_cs/ouster_sensor_msgs/msg/packet_msg.ep.rosidl_typesupport_c.c.o[0m
+[6.675s] [ 38%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_packet_msg__rosidl_typesupport_introspection_c.dir/rosidl_generator_cs/ouster_sensor_msgs/msg/packet_msg.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.681s] [ 39%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_srv_get_config__rosidl_typesupport_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/get_config.ep.rosidl_typesupport_c.c.o[0m
+[6.686s] [ 39%] Built target ouster_sensor_msgs__rosidl_typesupport_introspection_cpp
+[6.687s] [ 40%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_srv_get_config__rosidl_typesupport_introspection_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/get_config.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.692s] [ 41%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_srv_set_config__rosidl_typesupport_introspection_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/set_config.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.692s] [ 42%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_telemetry__rosidl_typesupport_introspection_c.dir/rosidl_generator_cs/ouster_sensor_msgs/msg/telemetry.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.692s] [ 43%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_srv_set_config__rosidl_typesupport_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/set_config.ep.rosidl_typesupport_c.c.o[0m
+[6.702s] [ 44%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_srv_get_metadata__rosidl_typesupport_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/get_metadata.ep.rosidl_typesupport_c.c.o[0m
+[6.704s] [ 44%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_telemetry__rosidl_typesupport_c.dir/rosidl_generator_cs/ouster_sensor_msgs/msg/telemetry_s.c.o[0m
+[6.712s] [ 45%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_srv_get_metadata__rosidl_typesupport_introspection_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/get_metadata.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.740s] [ 46%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_srv_set_config__rosidl_typesupport_introspection_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/get_config_s.c.o[0m
+[6.755s] [ 47%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_srv_get_metadata__rosidl_typesupport_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/get_config_s.c.o[0m
+[6.755s] [ 47%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_packet_msg__rosidl_typesupport_introspection_c.dir/rosidl_generator_cs/ouster_sensor_msgs/msg/packet_msg_s.c.o[0m
+[6.760s] [ 47%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_telemetry__rosidl_typesupport_introspection_c.dir/rosidl_generator_cs/ouster_sensor_msgs/msg/packet_msg_s.c.o[0m
+[6.765s] [ 48%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_srv_get_config__rosidl_typesupport_introspection_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/get_config_s.c.o[0m
+[6.766s] [ 48%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_srv_get_metadata__rosidl_typesupport_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/set_config_s.c.o[0m
+[6.770s] [ 49%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_srv_set_config__rosidl_typesupport_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/get_config_s.c.o[0m
+[6.774s] [ 49%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_srv_get_config__rosidl_typesupport_introspection_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/set_config_s.c.o[0m
+[6.778s] [ 50%] [32m[1mLinking C shared library rosidl_generator_cs/ouster_sensor_msgs/msg/libouster_sensor_msgs_packet_msg__rosidl_typesupport_c_native.so[0m
+[6.782s] [ 51%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_srv_get_metadata__rosidl_typesupport_introspection_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/get_config_s.c.o[0m
+[6.783s] [ 52%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_srv_get_config__rosidl_typesupport_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/get_config_s.c.o[0m
+[6.790s] [ 53%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_telemetry__rosidl_typesupport_introspection_c.dir/rosidl_generator_cs/ouster_sensor_msgs/msg/telemetry_s.c.o[0m
+[6.797s] [ 54%] [32m[1mLinking C shared library rosidl_generator_cs/ouster_sensor_msgs/msg/libouster_sensor_msgs_telemetry__rosidl_typesupport_c_native.so[0m
+[6.807s] [ 55%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_srv_get_config__rosidl_typesupport_introspection_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/get_metadata_s.c.o[0m
+[6.824s] [ 55%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_srv_set_config__rosidl_typesupport_introspection_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/set_config_s.c.o[0m
+[6.848s] [ 56%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_packet_msg__rosidl_typesupport_introspection_c.dir/rosidl_generator_cs/ouster_sensor_msgs/msg/telemetry_s.c.o[0m
+[6.859s] [ 56%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_srv_set_config__rosidl_typesupport_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/set_config_s.c.o[0m
+[6.862s] [ 56%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_srv_get_config__rosidl_typesupport_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/set_config_s.c.o[0m
+[6.864s] [ 57%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_srv_set_config__rosidl_typesupport_introspection_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/get_metadata_s.c.o[0m
+[6.880s] [ 58%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_srv_set_config__rosidl_typesupport_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/get_metadata_s.c.o[0m
+[6.880s] [ 59%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_srv_get_config__rosidl_typesupport_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/get_metadata_s.c.o[0m
+[6.880s] [ 60%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_srv_get_metadata__rosidl_typesupport_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/get_metadata_s.c.o[0m
+[6.880s] [ 60%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_srv_get_metadata__rosidl_typesupport_introspection_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/set_config_s.c.o[0m
+[6.889s] [ 61%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_srv_get_metadata__rosidl_typesupport_introspection_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/get_metadata_s.c.o[0m
+[6.889s] [ 61%] Built target ouster_sensor_msgs_packet_msg__rosidl_typesupport_c
+[6.893s] [ 62%] [32m[1mLinking C shared library rosidl_generator_cs/ouster_sensor_msgs/msg/libouster_sensor_msgs_telemetry__rosidl_typesupport_introspection_c_native.so[0m
+[6.913s] [ 62%] Built target ouster_sensor_msgs_telemetry__rosidl_typesupport_c
+[6.928s] [ 63%] [32m[1mLinking C shared library rosidl_generator_cs/ouster_sensor_msgs/srv/libouster_sensor_msgs_srv_get_config__rosidl_typesupport_introspection_c_native.so[0m
+[6.967s] [ 64%] [32m[1mLinking C shared library rosidl_generator_cs/ouster_sensor_msgs/msg/libouster_sensor_msgs_packet_msg__rosidl_typesupport_introspection_c_native.so[0m
+[6.971s] [ 65%] Built target ouster_sensor_msgs_telemetry__rosidl_typesupport_introspection_c
+[6.976s] [ 66%] [32m[1mLinking C shared library rosidl_generator_cs/ouster_sensor_msgs/srv/libouster_sensor_msgs_srv_get_config__rosidl_typesupport_c_native.so[0m
+[6.981s] [ 67%] [32m[1mLinking C shared library rosidl_generator_cs/ouster_sensor_msgs/srv/libouster_sensor_msgs_srv_set_config__rosidl_typesupport_introspection_c_native.so[0m
+[6.987s] [ 68%] [32m[1mLinking C shared library rosidl_generator_cs/ouster_sensor_msgs/srv/libouster_sensor_msgs_srv_set_config__rosidl_typesupport_c_native.so[0m
+[6.990s] [ 69%] [32m[1mLinking C shared library rosidl_generator_cs/ouster_sensor_msgs/srv/libouster_sensor_msgs_srv_get_metadata__rosidl_typesupport_c_native.so[0m
+[6.992s] [ 70%] [32m[1mLinking C shared library rosidl_generator_cs/ouster_sensor_msgs/srv/libouster_sensor_msgs_srv_get_metadata__rosidl_typesupport_introspection_c_native.so[0m
+[7.008s] [ 70%] Built target ouster_sensor_msgs_srv_get_config__rosidl_typesupport_introspection_c
+[7.028s] [ 71%] Built target ouster_sensor_msgs_packet_msg__rosidl_typesupport_introspection_c
+[7.032s] [ 71%] Built target ouster_sensor_msgs_srv_get_config__rosidl_typesupport_c
+[7.047s] [ 71%] Built target ouster_sensor_msgs_srv_set_config__rosidl_typesupport_introspection_c
+[7.057s] [ 71%] Built target ouster_sensor_msgs_srv_get_metadata__rosidl_typesupport_introspection_c
+[7.061s] [ 71%] Built target ouster_sensor_msgs_srv_get_metadata__rosidl_typesupport_c
+[7.066s] [ 71%] Built target ouster_sensor_msgs_srv_set_config__rosidl_typesupport_c
+[7.122s] [ 72%] [32m[1mLinking CXX shared library libouster_sensor_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.160s] [ 73%] [32m[1mLinking CXX shared library libouster_sensor_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[7.220s] [ 73%] Built target ouster_sensor_msgs__rosidl_typesupport_fastrtps_cpp
+[7.249s] [ 73%] Built target ouster_sensor_msgs__rosidl_typesupport_fastrtps_c
+[7.276s] [ 73%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_packet_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_cs/ouster_sensor_msgs/msg/packet_msg.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.277s] [ 74%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_packet_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_cs/ouster_sensor_msgs/msg/packet_msg_s.c.o[0m
+[7.277s] [ 75%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_packet_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_cs/ouster_sensor_msgs/msg/telemetry_s.c.o[0m
+[7.277s] [ 75%] Built target ouster_sensor_msgs
+[7.285s] [ 77%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_srv_get_config__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/get_metadata_s.c.o[0m
+[7.288s] [ 77%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_srv_get_config__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/get_config.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.290s] [ 78%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_srv_get_config__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/get_config_s.c.o[0m
+[7.291s] [ 78%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_srv_get_config__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/set_config_s.c.o[0m
+[7.297s] [ 79%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_srv_set_config__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/set_config.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.297s] [ 79%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_srv_set_config__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/set_config_s.c.o[0m
+[7.300s] [ 80%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_telemetry__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_cs/ouster_sensor_msgs/msg/packet_msg_s.c.o[0m
+[7.302s] [ 81%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_srv_get_metadata__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/get_metadata.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.302s] [ 82%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_telemetry__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_cs/ouster_sensor_msgs/msg/telemetry.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.303s] [ 83%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_srv_get_metadata__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/get_config_s.c.o[0m
+[7.303s] [ 84%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_srv_set_config__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/get_config_s.c.o[0m
+[7.304s] [ 82%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_telemetry__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_cs/ouster_sensor_msgs/msg/telemetry_s.c.o[0m
+[7.304s] [ 85%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_srv_get_metadata__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/get_metadata_s.c.o[0m
+[7.308s] [ 86%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_srv_set_config__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/get_metadata_s.c.o[0m
+[7.315s] [ 86%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs_srv_get_metadata__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_cs/ouster_sensor_msgs/srv/set_config_s.c.o[0m
+[7.335s] [ 87%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.358s] [ 87%] [32m[1mLinking C shared library rosidl_generator_cs/ouster_sensor_msgs/msg/libouster_sensor_msgs_packet_msg__rosidl_typesupport_fastrtps_c_native.so[0m
+[7.376s] [ 88%] [32m[1mLinking C shared library rosidl_generator_cs/ouster_sensor_msgs/srv/libouster_sensor_msgs_srv_get_config__rosidl_typesupport_fastrtps_c_native.so[0m
+[7.394s] [ 89%] [32m[1mLinking C shared library rosidl_generator_cs/ouster_sensor_msgs/srv/libouster_sensor_msgs_srv_set_config__rosidl_typesupport_fastrtps_c_native.so[0m
+[7.407s] [ 90%] [32m[1mLinking C shared library rosidl_generator_cs/ouster_sensor_msgs/srv/libouster_sensor_msgs_srv_get_metadata__rosidl_typesupport_fastrtps_c_native.so[0m
+[7.407s] [ 90%] [32m[1mLinking C shared library rosidl_generator_cs/ouster_sensor_msgs/msg/libouster_sensor_msgs_telemetry__rosidl_typesupport_fastrtps_c_native.so[0m
+[7.411s] [ 91%] Built target ouster_sensor_msgs_packet_msg__rosidl_typesupport_fastrtps_c
+[7.435s] [ 91%] Built target ouster_sensor_msgs_srv_get_config__rosidl_typesupport_fastrtps_c
+[7.446s] [ 91%] Built target ouster_sensor_msgs_srv_set_config__rosidl_typesupport_fastrtps_c
+[7.453s] [ 92%] Built target ouster_sensor_msgs_telemetry__rosidl_typesupport_fastrtps_c
+[7.463s] [ 92%] Built target ouster_sensor_msgs_srv_get_metadata__rosidl_typesupport_fastrtps_c
+[7.551s]   Determining projects to restore...
+[8.310s]   Restored /home/ros2/tower_ws/build/ouster_sensor_msgs/ouster_sensor_msgs_assembly/ouster_sensor_msgs_assembly_dotnetcore.csproj (in 429 ms).
+[8.697s] [?1h=Microsoft (R) Build Engine version 17.0.4+85d71072f for .NET
+[8.698s] Copyright (C) Microsoft Corporation. All rights reserved.
+[8.698s] 
+[9.829s]   Determining projects to restore...
+[10.303s] [ 92%] Built target ouster_sensor_msgs__py
+[10.364s] [ 93%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/ouster_sensor_msgs/msg/_packet_msg_s.c.o[0m
+[10.364s] [ 94%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/ouster_sensor_msgs/msg/_telemetry_s.c.o[0m
+[10.366s] [ 95%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/ouster_sensor_msgs/srv/_get_metadata_s.c.o[0m
+[10.368s] [ 95%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/ouster_sensor_msgs/srv/_get_config_s.c.o[0m
+[10.370s] [ 96%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/ouster_sensor_msgs/srv/_set_config_s.c.o[0m
+[10.701s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/ouster_sensor_msgs/libouster_sensor_msgs__rosidl_generator_py.so[0m
+[10.770s] [ 96%] Built target ouster_sensor_msgs__rosidl_generator_py
+[10.816s] [ 96%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ouster_sensor_msgs/_ouster_sensor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.822s] [ 97%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ouster_sensor_msgs/_ouster_sensor_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[10.825s] [ 98%] [32mBuilding C object CMakeFiles/ouster_sensor_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ouster_sensor_msgs/_ouster_sensor_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[10.851s]   All projects are up-to-date for restore.
+[10.969s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/ouster_sensor_msgs/ouster_sensor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.003s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/ouster_sensor_msgs/ouster_sensor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.050s] [ 99%] Built target ouster_sensor_msgs__rosidl_typesupport_fastrtps_c__pyext
+[11.100s] [ 99%] Built target ouster_sensor_msgs__rosidl_typesupport_c__pyext
+[11.105s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ouster_sensor_msgs/ouster_sensor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.166s] [100%] Built target ouster_sensor_msgs__rosidl_typesupport_introspection_c__pyext
+[12.941s]   ouster_sensor_msgs_assembly_dotnetcore -> /home/ros2/tower_ws/build/ouster_sensor_msgs/netstandard2.0/ouster_sensor_msgs_assembly.dll
+[12.966s] [39;49m[92m
+[12.966s] Build succeeded.
+[12.966s] [39;49m    0 Warning(s)
+[12.966s] [39;49m    0 Error(s)
+[12.966s] [39;49m
+[12.966s] Time Elapsed 00:00:04.09
+[13.023s] [100%] Built target ouster_sensor_msgs_assembly
+[13.057s] Invoked command in '/home/ros2/tower_ws/build/ouster_sensor_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble /usr/bin/cmake --build /home/ros2/tower_ws/build/ouster_sensor_msgs -- -j24 -l24
+[13.059s] Invoking command in '/home/ros2/tower_ws/build/ouster_sensor_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble /usr/bin/cmake --install /home/ros2/tower_ws/build/ouster_sensor_msgs
+[13.079s] -- Install configuration: ""
+[13.079s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ament_index/resource_index/rosidl_interfaces/ouster_sensor_msgs
+[13.079s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs
+[13.080s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv
+[13.080s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/set_config.h
+[13.084s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/get_metadata.h
+[13.084s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/get_config.h
+[13.084s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail
+[13.084s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__type_support.h
+[13.084s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__functions.h
+[13.084s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__functions.c
+[13.085s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__functions.h
+[13.085s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__functions.h
+[13.085s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__functions.c
+[13.085s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__struct.h
+[13.085s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__struct.h
+[13.085s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__type_support.h
+[13.085s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__type_support.h
+[13.085s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__functions.c
+[13.085s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__struct.h
+[13.085s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg
+[13.085s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/telemetry.h
+[13.085s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/rosidl_generator_c__visibility_control.h
+[13.086s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail
+[13.086s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/telemetry__functions.h
+[13.086s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__struct.h
+[13.086s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__type_support.h
+[13.086s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/telemetry__type_support.h
+[13.086s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/telemetry__functions.c
+[13.086s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__functions.h
+[13.086s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__functions.c
+[13.086s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/telemetry__struct.h
+[13.086s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/packet_msg.h
+[13.086s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/environment/library_path.sh
+[13.086s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/environment/library_path.dsv
+[13.086s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_generator_c.so
+[13.087s] -- Set runtime path of "/home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_generator_c.so" to ""
+[13.087s] -- Up-to-date: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs
+[13.087s] -- Up-to-date: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv
+[13.087s] -- Up-to-date: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail
+[13.087s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__rosidl_typesupport_fastrtps_c.h
+[13.087s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__rosidl_typesupport_fastrtps_c.h
+[13.087s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__rosidl_typesupport_fastrtps_c.h
+[13.087s] -- Up-to-date: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg
+[13.087s] -- Up-to-date: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail
+[13.087s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/telemetry__rosidl_typesupport_fastrtps_c.h
+[13.087s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__rosidl_typesupport_fastrtps_c.h
+[13.088s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[13.088s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_typesupport_fastrtps_c.so
+[13.088s] -- Set runtime path of "/home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[13.088s] -- Up-to-date: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs
+[13.088s] -- Up-to-date: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv
+[13.088s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/get_metadata.hpp
+[13.091s] -- Up-to-date: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail
+[13.093s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__type_support.hpp
+[13.093s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__struct.hpp
+[13.093s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__struct.hpp
+[13.093s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__type_support.hpp
+[13.095s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__traits.hpp
+[13.095s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__builder.hpp
+[13.095s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__traits.hpp
+[13.095s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__builder.hpp
+[13.095s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__type_support.hpp
+[13.095s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__builder.hpp
+[13.095s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__traits.hpp
+[13.095s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__struct.hpp
+[13.095s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/get_config.hpp
+[13.095s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/set_config.hpp
+[13.095s] -- Up-to-date: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg
+[13.095s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/packet_msg.hpp
+[13.096s] -- Up-to-date: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail
+[13.096s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/telemetry__builder.hpp
+[13.096s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/telemetry__traits.hpp
+[13.096s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__builder.hpp
+[13.096s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/telemetry__struct.hpp
+[13.096s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/telemetry__type_support.hpp
+[13.096s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__traits.hpp
+[13.096s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__type_support.hpp
+[13.096s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__struct.hpp
+[13.096s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[13.096s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/telemetry.hpp
+[13.099s] -- Up-to-date: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs
+[13.099s] -- Up-to-date: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv
+[13.099s] -- Up-to-date: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail
+[13.099s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__rosidl_typesupport_fastrtps_cpp.hpp
+[13.099s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__rosidl_typesupport_fastrtps_cpp.hpp
+[13.099s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/dds_fastrtps
+[13.099s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__rosidl_typesupport_fastrtps_cpp.hpp
+[13.099s] -- Up-to-date: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg
+[13.100s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[13.100s] -- Up-to-date: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail
+[13.100s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/telemetry__rosidl_typesupport_fastrtps_cpp.hpp
+[13.100s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[13.100s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/dds_fastrtps
+[13.100s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_typesupport_fastrtps_cpp.so
+[13.100s] -- Set runtime path of "/home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[13.100s] -- Up-to-date: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs
+[13.100s] -- Up-to-date: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv
+[13.100s] -- Up-to-date: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail
+[13.100s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__rosidl_typesupport_introspection_c.h
+[13.100s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__rosidl_typesupport_introspection_c.h
+[13.101s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__type_support.c
+[13.101s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__type_support.c
+[13.101s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__type_support.c
+[13.101s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__rosidl_typesupport_introspection_c.h
+[13.101s] -- Up-to-date: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg
+[13.101s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[13.101s] -- Up-to-date: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail
+[13.101s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__type_support.c
+[13.101s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__rosidl_typesupport_introspection_c.h
+[13.101s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/telemetry__type_support.c
+[13.101s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/telemetry__rosidl_typesupport_introspection_c.h
+[13.101s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_typesupport_introspection_c.so
+[13.101s] -- Set runtime path of "/home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_typesupport_introspection_c.so" to ""
+[13.101s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_typesupport_c.so
+[13.101s] -- Set runtime path of "/home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_typesupport_c.so" to ""
+[13.102s] -- Up-to-date: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs
+[13.102s] -- Up-to-date: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv
+[13.102s] -- Up-to-date: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail
+[13.103s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__rosidl_typesupport_introspection_cpp.hpp
+[13.106s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__rosidl_typesupport_introspection_cpp.hpp
+[13.106s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/set_config__type_support.cpp
+[13.106s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__rosidl_typesupport_introspection_cpp.hpp
+[13.106s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_metadata__type_support.cpp
+[13.106s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/srv/detail/get_config__type_support.cpp
+[13.106s] -- Up-to-date: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg
+[13.106s] -- Up-to-date: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail
+[13.107s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__rosidl_typesupport_introspection_cpp.hpp
+[13.107s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/packet_msg__type_support.cpp
+[13.107s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/telemetry__rosidl_typesupport_introspection_cpp.hpp
+[13.107s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/include/ouster_sensor_msgs/ouster_sensor_msgs/msg/detail/telemetry__type_support.cpp
+[13.107s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_typesupport_introspection_cpp.so
+[13.107s] -- Set runtime path of "/home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[13.107s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_typesupport_cpp.so
+[13.107s] -- Set runtime path of "/home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_typesupport_cpp.so" to ""
+[13.107s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs_packet_msg__rosidl_typesupport_c_native.so
+[13.107s] -- Set runtime path of "/home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs_packet_msg__rosidl_typesupport_c_native.so" to ""
+[13.107s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs_packet_msg__rosidl_typesupport_introspection_c_native.so
+[13.107s] -- Set runtime path of "/home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs_packet_msg__rosidl_typesupport_introspection_c_native.so" to ""
+[13.107s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs_packet_msg__rosidl_typesupport_fastrtps_c_native.so
+[13.108s] -- Set runtime path of "/home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs_packet_msg__rosidl_typesupport_fastrtps_c_native.so" to ""
+[13.108s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs_telemetry__rosidl_typesupport_c_native.so
+[13.108s] -- Set runtime path of "/home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs_telemetry__rosidl_typesupport_c_native.so" to ""
+[13.108s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs_telemetry__rosidl_typesupport_introspection_c_native.so
+[13.110s] -- Set runtime path of "/home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs_telemetry__rosidl_typesupport_introspection_c_native.so" to ""
+[13.110s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs_telemetry__rosidl_typesupport_fastrtps_c_native.so
+[13.110s] -- Set runtime path of "/home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs_telemetry__rosidl_typesupport_fastrtps_c_native.so" to ""
+[13.111s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs_srv_get_config__rosidl_typesupport_c_native.so
+[13.111s] -- Set runtime path of "/home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs_srv_get_config__rosidl_typesupport_c_native.so" to ""
+[13.111s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs_srv_get_config__rosidl_typesupport_introspection_c_native.so
+[13.111s] -- Set runtime path of "/home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs_srv_get_config__rosidl_typesupport_introspection_c_native.so" to ""
+[13.111s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs_srv_get_config__rosidl_typesupport_fastrtps_c_native.so
+[13.111s] -- Set runtime path of "/home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs_srv_get_config__rosidl_typesupport_fastrtps_c_native.so" to ""
+[13.112s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs_srv_set_config__rosidl_typesupport_c_native.so
+[13.112s] -- Set runtime path of "/home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs_srv_set_config__rosidl_typesupport_c_native.so" to ""
+[13.112s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs_srv_set_config__rosidl_typesupport_introspection_c_native.so
+[13.113s] -- Set runtime path of "/home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs_srv_set_config__rosidl_typesupport_introspection_c_native.so" to ""
+[13.113s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs_srv_set_config__rosidl_typesupport_fastrtps_c_native.so
+[13.113s] -- Set runtime path of "/home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs_srv_set_config__rosidl_typesupport_fastrtps_c_native.so" to ""
+[13.113s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs_srv_get_metadata__rosidl_typesupport_c_native.so
+[13.113s] -- Set runtime path of "/home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs_srv_get_metadata__rosidl_typesupport_c_native.so" to ""
+[13.113s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs_srv_get_metadata__rosidl_typesupport_introspection_c_native.so
+[13.113s] -- Set runtime path of "/home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs_srv_get_metadata__rosidl_typesupport_introspection_c_native.so" to ""
+[13.113s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs_srv_get_metadata__rosidl_typesupport_fastrtps_c_native.so
+[13.113s] -- Set runtime path of "/home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs_srv_get_metadata__rosidl_typesupport_fastrtps_c_native.so" to ""
+[13.114s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/lib/dotnet
+[13.114s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/lib/dotnet/std_msgs_assembly.dll
+[13.114s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/lib/dotnet/builtin_interfaces_assembly.dll
+[13.116s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/lib/dotnet/ouster_sensor_msgs_assembly.dll
+[13.118s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/lib/dotnet/ros2cs_common.dll
+[13.118s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/lib/dotnet/ouster_sensor_msgs_assembly.deps.json
+[13.118s] -- Up-to-date: /home/ros2/tower_ws/install/ouster_sensor_msgs/lib/dotnet
+[13.118s] -- Up-to-date: /home/ros2/tower_ws/install/ouster_sensor_msgs/lib/dotnet/std_msgs_assembly.dll
+[13.118s] -- Up-to-date: /home/ros2/tower_ws/install/ouster_sensor_msgs/lib/dotnet/builtin_interfaces_assembly.dll
+[13.118s] -- Up-to-date: /home/ros2/tower_ws/install/ouster_sensor_msgs/lib/dotnet/ouster_sensor_msgs_assembly.dll
+[13.118s] -- Up-to-date: /home/ros2/tower_ws/install/ouster_sensor_msgs/lib/dotnet/ros2cs_common.dll
+[13.119s] -- Up-to-date: /home/ros2/tower_ws/install/ouster_sensor_msgs/lib/dotnet/ouster_sensor_msgs_assembly.deps.json
+[13.119s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/environment/pythonpath.sh
+[13.119s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/environment/pythonpath.dsv
+[13.119s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs-0.14.1-py3.10.egg-info
+[13.119s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs-0.14.1-py3.10.egg-info/dependency_links.txt
+[13.119s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs-0.14.1-py3.10.egg-info/PKG-INFO
+[13.119s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs-0.14.1-py3.10.egg-info/top_level.txt
+[13.119s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs-0.14.1-py3.10.egg-info/SOURCES.txt
+[13.119s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs
+[13.119s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/libouster_sensor_msgs__rosidl_generator_py.so
+[13.119s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/_ouster_sensor_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[13.119s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/ouster_sensor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[13.119s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/_ouster_sensor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[13.120s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/_ouster_sensor_msgs_s.ep.rosidl_typesupport_c.c
+[13.120s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/ouster_sensor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[13.120s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/srv
+[13.120s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/srv/_set_config.py
+[13.120s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/srv/_get_config_s.c
+[13.120s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/srv/_get_metadata_s.c
+[13.120s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/srv/_get_config.py
+[13.120s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/srv/_get_metadata.py
+[13.120s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/srv/__init__.py
+[13.120s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/srv/_set_config_s.c
+[13.120s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/__init__.py
+[13.120s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/ouster_sensor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[13.120s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/msg
+[13.120s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/msg/_packet_msg_s.c
+[13.121s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/msg/_telemetry.py
+[13.124s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/msg/_telemetry_s.c
+[13.124s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/msg/__init__.py
+[13.124s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/msg/_packet_msg.py
+[13.240s] Listing '/home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs'...
+[13.240s] Compiling '/home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/__init__.py'...
+[13.240s] Listing '/home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/msg'...
+[13.240s] Compiling '/home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/msg/__init__.py'...
+[13.240s] Compiling '/home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/msg/_packet_msg.py'...
+[13.240s] Compiling '/home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/msg/_telemetry.py'...
+[13.240s] Listing '/home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/srv'...
+[13.241s] Compiling '/home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/srv/__init__.py'...
+[13.241s] Compiling '/home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/srv/_get_config.py'...
+[13.241s] Compiling '/home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/srv/_get_metadata.py'...
+[13.241s] Compiling '/home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/srv/_set_config.py'...
+[13.246s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/ouster_sensor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[13.247s] -- Set runtime path of "/home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/ouster_sensor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[13.247s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/ouster_sensor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[13.247s] -- Set runtime path of "/home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/ouster_sensor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[13.247s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/ouster_sensor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[13.248s] -- Set runtime path of "/home/ros2/tower_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages/ouster_sensor_msgs/ouster_sensor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[13.248s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_generator_py.so
+[13.248s] -- Set runtime path of "/home/ros2/tower_ws/install/ouster_sensor_msgs/lib/libouster_sensor_msgs__rosidl_generator_py.so" to ""
+[13.248s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ament_index/resource_index/rust_packages/ouster_sensor_msgs
+[13.248s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/rust
+[13.248s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/rust/build.rs
+[13.252s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/rust/src
+[13.252s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/rust/src/msg.rs
+[13.252s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/rust/src/srv
+[13.252s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/rust/src/srv/rmw.rs
+[13.252s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/rust/src/lib.rs
+[13.252s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/rust/src/msg
+[13.252s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/rust/src/msg/rmw.rs
+[13.252s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/rust/src/srv.rs
+[13.253s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/rust/Cargo.toml
+[13.253s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/msg/PacketMsg.idl
+[13.253s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/msg/Telemetry.idl
+[13.253s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/GetConfig.idl
+[13.253s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/SetConfig.idl
+[13.253s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/GetMetadata.idl
+[13.253s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/msg/PacketMsg.msg
+[13.254s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/msg/Telemetry.msg
+[13.254s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/GetConfig.srv
+[13.254s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/GetConfig_Request.msg
+[13.254s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/GetConfig_Response.msg
+[13.254s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/SetConfig.srv
+[13.255s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/SetConfig_Request.msg
+[13.255s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/SetConfig_Response.msg
+[13.255s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/GetMetadata.srv
+[13.255s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/GetMetadata_Request.msg
+[13.255s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/srv/GetMetadata_Response.msg
+[13.255s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ament_index/resource_index/package_run_dependencies/ouster_sensor_msgs
+[13.255s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ament_index/resource_index/parent_prefix_path/ouster_sensor_msgs
+[13.255s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/environment/ament_prefix_path.sh
+[13.255s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/environment/ament_prefix_path.dsv
+[13.256s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/environment/path.sh
+[13.256s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/environment/path.dsv
+[13.256s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/local_setup.bash
+[13.256s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/local_setup.sh
+[13.256s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/local_setup.zsh
+[13.256s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/local_setup.dsv
+[13.256s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/package.dsv
+[13.256s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ament_index/resource_index/packages/ouster_sensor_msgs
+[13.259s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/export_ouster_sensor_msgs__rosidl_generator_cExport.cmake
+[13.259s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/export_ouster_sensor_msgs__rosidl_generator_cExport-noconfig.cmake
+[13.259s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/export_ouster_sensor_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[13.259s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/export_ouster_sensor_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[13.259s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/export_ouster_sensor_msgs__rosidl_generator_cppExport.cmake
+[13.259s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/export_ouster_sensor_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[13.259s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/export_ouster_sensor_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[13.259s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ouster_sensor_msgs__rosidl_typesupport_introspection_cExport.cmake
+[13.261s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ouster_sensor_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[13.261s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ouster_sensor_msgs__rosidl_typesupport_cExport.cmake
+[13.261s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ouster_sensor_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[13.261s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ouster_sensor_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[13.262s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ouster_sensor_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[13.262s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ouster_sensor_msgs__rosidl_typesupport_cppExport.cmake
+[13.262s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ouster_sensor_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[13.262s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/export_ouster_sensor_msgs__rosidl_generator_pyExport.cmake
+[13.262s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/export_ouster_sensor_msgs__rosidl_generator_pyExport-noconfig.cmake
+[13.262s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/rosidl_cmake-extras.cmake
+[13.262s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.262s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.263s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[13.263s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[13.265s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[13.265s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[13.265s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ament_cmake_export_assemblies-extras.cmake
+[13.265s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[13.265s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ouster_sensor_msgsConfig.cmake
+[13.265s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake/ouster_sensor_msgsConfig-version.cmake
+[13.266s] -- Installing: /home/ros2/tower_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/package.xml
+[13.278s] Invoked command in '/home/ros2/tower_ws/build/ouster_sensor_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble /usr/bin/cmake --install /home/ros2/tower_ws/build/ouster_sensor_msgs

@@ -1,0 +1,471 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "network/libnetworking.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_compile_options",
+			"include_directories",
+			"target_include_directories",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 34,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 86,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 90,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"backtrace" : 3,
+					"fragment" : "-std=c++17"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-pthread"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/usr/include/opencv4"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/core"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/core/socket"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/core/tls"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/core/client"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/core/connection"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/core/connection/bytestream"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/core/connection/datagram"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/core/connection/messaging"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/core/connection/secure"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/core/server"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/core/utility"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/core/event_handling"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/CAT_240/client"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/CAT_240/server"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/CAT_240/protocol"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/CAT_240/event_handling"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/Colossus/client"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/Colossus/server"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/Colossus/protocol"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/Colossus/event_handling"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/Colossus/test"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/Colossus_UDP/client"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/Colossus_UDP/server"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/Colossus_UDP/protocol"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/Colossus_UDP/event_handling"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/Colossus_UDP/test"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/NMEA/client"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/NMEA/server"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/NMEA/protocol"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/NMEA/event_handling"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/utility"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/utility/threading"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/ros2/tower_ws/build/nav_radar/protobuf"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/navigation"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "navigation::@c4e44054ded3c2fac69f"
+		}
+	],
+	"id" : "networking::@39732e8ab9fc593479e7",
+	"name" : "networking",
+	"nameOnDisk" : "libnetworking.a",
+	"paths" : 
+	{
+		"build" : "network",
+		"source" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/core/socket/Socket.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/core/socket/TCP_socket.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/core/socket/UDP_socket.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/core/utility/IP_address.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/core/utility/net_conversion.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/core/utility/MAC_address.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/CAT_240/client/Cat240_client.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/CAT_240/event_handling/Cat240_events.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/CAT_240/server/Cat240_server.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/CAT_240/protocol/Cat240_message.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/Colossus/client/Colossus_client.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/Colossus/server/Colossus_server.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/Colossus/event_handling/Colossus_events.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/Colossus/protocol/Colossus_network_message.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/Colossus/test/Colossus_test.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/Colossus/test/Colossus_test_runner.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/Colossus/test/Colossus_test_cases.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/Colossus_UDP/client/Colossus_UDP_client.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/Colossus_UDP/event_handling/Colossus_UDP_events.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/Colossus_UDP/protocol/Colossus_UDP_network_message.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/NMEA/protocol/NMEA_message.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/NMEA/protocol/NMEA_parser.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/NMEA/client/NMEA_client.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/NMEA/server/NMEA_server.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/ros2/tower_ws/src/navtech/src/cpp_17/src/network/protocol/NMEA/event_handling/NMEA_events.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

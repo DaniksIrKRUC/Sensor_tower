@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "G/mwQ1kZibCA2xR3n2HHEXQwpjodlOnal2fzkrtpQrPSb0REZbWKBT01dyGZasPzFM1pmoSIDRlpq1UoGKoNEA==",
+  "success": true,
+  "projectFilePath": "/home/ros2/tower_ws/build/ouster_sensor_msgs/ouster_sensor_msgs_assembly/ouster_sensor_msgs_assembly_dotnetcore.csproj",
+  "expectedPackageFiles": [
+    "/home/ros2/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/ros2/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

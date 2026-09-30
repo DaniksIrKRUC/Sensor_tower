@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = ouster_sensor_msgs_assembly_dotnetcore
+build_property.ProjectDir = /home/ros2/tower_ws/build/ouster_sensor_msgs/ouster_sensor_msgs_assembly/

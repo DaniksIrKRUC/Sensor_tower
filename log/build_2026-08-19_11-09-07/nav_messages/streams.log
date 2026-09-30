@@ -1,0 +1,62 @@
+[0.007s] Invoking command in '/home/ros2/tower_ws/build/nav_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/Downloads/final-ai/install/py_fakedata:/home/ros2/Downloads/final-ai/install/py_detectionmessage:/home/ros2/Downloads/final-ai/install/py_aiproc:/opt/ros/humble /usr/bin/cmake /home/ros2/tower_ws/src/navtech/src/nav_messages -DCMAKE_INSTALL_PREFIX=/home/ros2/tower_ws/install/nav_messages
+[0.141s] -- The C compiler identification is GNU 11.4.0
+[0.221s] -- The CXX compiler identification is GNU 11.4.0
+[0.228s] -- Detecting C compiler ABI info
+[0.323s] -- Detecting C compiler ABI info - done
+[0.328s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.328s] -- Detecting C compile features
+[0.329s] -- Detecting C compile features - done
+[0.330s] -- Detecting CXX compiler ABI info
+[0.391s] -- Detecting CXX compiler ABI info - done
+[0.398s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.399s] -- Detecting CXX compile features
+[0.399s] -- Detecting CXX compile features - done
+[0.404s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.546s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.637s] -- Found std_msgs: 4.9.0 (/home/ros2/Downloads/ros2cs/install/share/std_msgs/cmake)
+[0.668s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.673s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.680s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.692s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.707s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.730s] -- Found rosidl_default_generators: 1.2.0 (/home/ros2/Downloads/ros2cs/install/share/rosidl_default_generators/cmake)
+[0.734s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.946s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.191s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.286s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.288s] -- Found ament_cmake_export_assemblies: 0.0.0 (/home/ros2/Downloads/ros2cs/install/share/ament_cmake_export_assemblies/cmake)
+[1.290s] -- Found dotnet_cmake_module: 0.0.0 (/home/ros2/Downloads/ros2cs/install/share/dotnet_cmake_module/cmake)
+[1.398s] -- Found DotNetCore: /usr/bin/dotnet  
+[1.398s] -- Found .NET Core: 6.0.136
+[1.398s] -- Using Framework: netstandard2.0
+[1.399s] -- Using Framework: netstandard2.0
+[1.399s] -- Using Runtime: linux-x64
+[1.400s] -- Found ros2cs_common: 2.0.0 (/home/ros2/Downloads/ros2cs/install/share/ros2cs_common/cmake)
+[1.534s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.568s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.630s] -- Generating C# code for ROS interfaces /home/ros2/tower_ws/build/nav_messages/rosidl_generator_cs/nav_messages/msg/radar_configuration_message.cs;/home/ros2/tower_ws/build/nav_messages/rosidl_generator_cs/nav_messages/msg/radar_fft_data_message.cs;/home/ros2/tower_ws/build/nav_messages/rosidl_generator_cs/nav_messages/msg/camera_configuration_message.cs and 
+[1.630s] -- Adding custom target
+[1.631s] [0mLink libraries: nav_messages__rosidl_typesupport_c[0m
+[1.633s] [0mLink libraries: nav_messages__rosidl_typesupport_introspection_c[0m
+[1.634s] [0mLink libraries: nav_messages__rosidl_typesupport_fastrtps_c[0m
+[1.636s] [0mLink libraries: nav_messages__rosidl_typesupport_c[0m
+[1.637s] [0mLink libraries: nav_messages__rosidl_typesupport_introspection_c[0m
+[1.638s] [0mLink libraries: nav_messages__rosidl_typesupport_fastrtps_c[0m
+[1.640s] [0mLink libraries: nav_messages__rosidl_typesupport_c[0m
+[1.641s] [0mLink libraries: nav_messages__rosidl_typesupport_introspection_c[0m
+[1.643s] [0mLink libraries: nav_messages__rosidl_typesupport_fastrtps_c[0m
+[1.644s] [0mInstall targets[0m
+[1.658s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.660s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.679s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.679s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.679s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.679s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.702s] -- Found PythonExtra: .so  
+[1.791s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.814s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.815s] -- Added test 'lint_cmake' to check CMake code style
+[1.816s] -- Added test 'xmllint' to check XML markup files
+[1.818s] -- Configuring done
+[1.849s] -- Generating done
+[1.860s] -- Build files have been written to: /home/ros2/tower_ws/build/nav_messages

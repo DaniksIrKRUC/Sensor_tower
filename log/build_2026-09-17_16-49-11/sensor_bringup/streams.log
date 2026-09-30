@@ -1,0 +1,34 @@
+[0.980s] Invoking command in '/home/ros2/tower_ws/src/sensor_bringup': PYTHONPATH=/home/ros2/tower_ws/build/sensor_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/tower_ws/install/sensor_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_bringup build --build-base /home/ros2/tower_ws/build/sensor_bringup/build install --record /home/ros2/tower_ws/build/sensor_bringup/install.log --install-scripts $base/lib/sensor_bringup --single-version-externally-managed install_data
+[1.143s] running egg_info
+[1.144s] creating ../../build/sensor_bringup/sensor_bringup.egg-info
+[1.144s] writing ../../build/sensor_bringup/sensor_bringup.egg-info/PKG-INFO
+[1.144s] writing dependency_links to ../../build/sensor_bringup/sensor_bringup.egg-info/dependency_links.txt
+[1.144s] writing entry points to ../../build/sensor_bringup/sensor_bringup.egg-info/entry_points.txt
+[1.144s] writing requirements to ../../build/sensor_bringup/sensor_bringup.egg-info/requires.txt
+[1.144s] writing top-level names to ../../build/sensor_bringup/sensor_bringup.egg-info/top_level.txt
+[1.145s] writing manifest file '../../build/sensor_bringup/sensor_bringup.egg-info/SOURCES.txt'
+[1.146s] reading manifest file '../../build/sensor_bringup/sensor_bringup.egg-info/SOURCES.txt'
+[1.146s] adding license file 'LICENSE'
+[1.146s] writing manifest file '../../build/sensor_bringup/sensor_bringup.egg-info/SOURCES.txt'
+[1.146s] running build
+[1.146s] running build_py
+[1.146s] creating /home/ros2/tower_ws/build/sensor_bringup/build
+[1.146s] creating /home/ros2/tower_ws/build/sensor_bringup/build/lib
+[1.146s] creating /home/ros2/tower_ws/build/sensor_bringup/build/lib/sensor_bringup
+[1.146s] copying sensor_bringup/__init__.py -> /home/ros2/tower_ws/build/sensor_bringup/build/lib/sensor_bringup
+[1.146s] running install
+[1.146s] running install_lib
+[1.147s] creating /home/ros2/tower_ws/install/sensor_bringup/lib/python3.10/site-packages/sensor_bringup
+[1.147s] copying /home/ros2/tower_ws/build/sensor_bringup/build/lib/sensor_bringup/__init__.py -> /home/ros2/tower_ws/install/sensor_bringup/lib/python3.10/site-packages/sensor_bringup
+[1.147s] byte-compiling /home/ros2/tower_ws/install/sensor_bringup/lib/python3.10/site-packages/sensor_bringup/__init__.py to __init__.cpython-310.pyc
+[1.147s] running install_data
+[1.147s] creating /home/ros2/tower_ws/install/sensor_bringup/share/ament_index
+[1.147s] creating /home/ros2/tower_ws/install/sensor_bringup/share/ament_index/resource_index
+[1.147s] creating /home/ros2/tower_ws/install/sensor_bringup/share/ament_index/resource_index/packages
+[1.148s] copying resource/sensor_bringup -> /home/ros2/tower_ws/install/sensor_bringup/share/ament_index/resource_index/packages
+[1.148s] copying package.xml -> /home/ros2/tower_ws/install/sensor_bringup/share/sensor_bringup
+[1.148s] running install_egg_info
+[1.149s] Copying ../../build/sensor_bringup/sensor_bringup.egg-info to /home/ros2/tower_ws/install/sensor_bringup/lib/python3.10/site-packages/sensor_bringup-0.0.0-py3.10.egg-info
+[1.149s] running install_scripts
+[1.165s] writing list of installed files to '/home/ros2/tower_ws/build/sensor_bringup/install.log'
+[1.183s] Invoked command in '/home/ros2/tower_ws/src/sensor_bringup' returned '0': PYTHONPATH=/home/ros2/tower_ws/build/sensor_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/tower_ws/install/sensor_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_bringup build --build-base /home/ros2/tower_ws/build/sensor_bringup/build install --record /home/ros2/tower_ws/build/sensor_bringup/install.log --install-scripts $base/lib/sensor_bringup --single-version-externally-managed install_data

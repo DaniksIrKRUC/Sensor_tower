@@ -1,0 +1,24 @@
+[0.006s] Invoking command in '/home/ros2/tower_ws/build/IASDK': /usr/bin/cmake /home/ros2/tower_ws/src/navtech/src/cpp_17/src -DCMAKE_INSTALL_PREFIX=/home/ros2/tower_ws/install/IASDK
+[0.136s] -- The C compiler identification is GNU 11.4.0
+[0.215s] -- The CXX compiler identification is GNU 11.4.0
+[0.224s] -- Detecting C compiler ABI info
+[0.311s] -- Detecting C compiler ABI info - done
+[0.320s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.321s] -- Detecting C compile features
+[0.321s] -- Detecting C compile features - done
+[0.324s] -- Detecting CXX compiler ABI info
+[0.387s] -- Detecting CXX compiler ABI info - done
+[0.394s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.395s] -- Detecting CXX compile features
+[0.395s] -- Detecting CXX compile features - done
+[0.537s] [31mCMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
+[0.537s]   Could NOT find Protobuf (missing: Protobuf_LIBRARIES Protobuf_INCLUDE_DIR)
+[0.537s] Call Stack (most recent call first):
+[0.537s]   /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)
+[0.537s]   /usr/share/cmake-3.22/Modules/FindProtobuf.cmake:650 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+[0.537s]   CMakeLists.txt:7 (find_package)
+[0.537s] 
+[0.537s] [0m
+[0.537s] -- Configuring incomplete, errors occurred!
+[0.537s] See also "/home/ros2/tower_ws/build/IASDK/CMakeFiles/CMakeOutput.log".
+[0.539s] Invoked command in '/home/ros2/tower_ws/build/IASDK' returned '1': /usr/bin/cmake /home/ros2/tower_ws/src/navtech/src/cpp_17/src -DCMAKE_INSTALL_PREFIX=/home/ros2/tower_ws/install/IASDK
